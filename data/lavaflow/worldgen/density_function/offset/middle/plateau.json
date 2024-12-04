@@ -1,0 +1,18 @@
+{
+    "type": "spline",
+    "spline": {
+        "coordinate": "lavaflow:ridge_abs",
+        "points": [
+            {
+                "location": 0.05,
+                "value": -0.64,
+                "derivative": 0
+            },
+            {
+                "location": 0.1,
+                "value": -0.5,
+                "derivative": 0
+            }
+        ]
+    }
+}

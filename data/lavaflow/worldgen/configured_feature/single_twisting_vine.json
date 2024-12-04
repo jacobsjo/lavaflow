@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:block_column",
+    "config": {
+        "allowed_placement": {
+            "type": "minecraft:replaceable"
+        },
+        "direction": "up",
+        "layers": [
+            {
+                "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": 2,
+                    "max_inclusive": 5
+                },
+                "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:twisting_vines_plant"
+                    }
+                }
+            },
+            {
+                "height": 1,
+                "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:twisting_vines"
+                    }
+                }
+            }
+        ],
+        "prioritize_tip": true
+    }
+  }

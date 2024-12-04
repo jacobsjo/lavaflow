@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:has_structure/bastion_remnant/treasure",
+    "max_distance_from_center": 80,
+    "size": 6,
+    "spawn_overrides": {},
+    "start_height": {
+        "absolute": 40
+    },
+    "start_pool": "minecraft:bastion/start_treasure",
+    "step": "local_modifications",
+    "use_expansion_hack": false,
+    "start_jigsaw_name": "lavaflow:center"
+}

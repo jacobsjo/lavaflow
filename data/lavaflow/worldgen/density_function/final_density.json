@@ -1,0 +1,66 @@
+{
+    "type": "add",
+    "argument1": {
+        "type": "max",
+        "argument1": {
+            "type": "max",
+            "argument1": {
+                "type": "add",
+                "argument1": {
+                    "type": "minecraft:mul",
+                    "argument1": "lavaflow:depth",
+                    "argument2": -1
+                },
+                "argument2": {
+                    "type": "add",
+                    "argument1": {
+                        "type": "mul",
+                    "argument1": 0.095,
+                    "argument2": "lavaflow:height_variation"
+                    },
+                    "argument2": 0.12
+                }
+            },
+            "argument2": {
+                "type": "add",
+                "argument1": "lavaflow:depth",
+                "argument2": {
+                    "type": "add",
+                    "argument1": "lavaflow:offset",
+                    "argument2": {
+                        "type": "mul",
+                        "argument1": 0.05,
+                        "argument2": "lavaflow:height_variation"
+                    }
+                }
+            }
+        },
+        "argument2": {
+            "type": "add",
+            "argument1": {
+                "type": "max",
+                "argument1": {
+                    "type": "mul",
+                    "argument1": "lavaflow:layer_toggle",
+                    "argument2": "lavaflow:layer"
+                },
+                "argument2": {
+                    "type": "range_choice",
+                    "input": "lavaflow:pillar",
+                    "min_inclusive": -1000000,
+                    "max_exclusive": 0.03,
+                    "when_in_range": -1000000,
+                    "when_out_of_range": "lavaflow:pillar"
+                }
+            },
+            "argument2": -0.0001
+        }
+    },
+    "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1,
+        "argument2": {
+            "type": "minecraft:beardifier"
+        }
+    }
+}

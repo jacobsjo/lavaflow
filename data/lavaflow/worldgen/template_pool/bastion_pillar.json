@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:feature_pool_element",
+                "feature": {
+                    "feature": "lavaflow:bastion_pillar",
+                    "placement": [
+                        {
+                            "type": "minecraft:random_offset",
+                            "xz_spread": 0,
+                            "y_spread": -2
+                        }
+                    ]
+                },
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

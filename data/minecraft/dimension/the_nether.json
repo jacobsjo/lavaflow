@@ -1,0 +1,2562 @@
+{
+  "type": "lavaflow:nether",
+  "generator": {
+    "biome_source": {
+      "biomes": [
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.17500000000000002
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.17500000000000002
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.17500000000000002
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.17500000000000002
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              0.18
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              0.18
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              0.18
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              0.18,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:river"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.18
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.18
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.18
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.18,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.66
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:river"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              0.18,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              0.18,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              0.18,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.18,
+              0.23
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.18,
+              0.23
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.18,
+              0.23
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.17,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.17,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.17,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.17,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.62,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.62,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.62,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.62,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              -0.75,
+              0.6
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.06
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.62
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:gravel_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.62
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:soul_sand_valley"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:basalt_deltas"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:gravel_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.62,
+              -0.17500000000000002
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.17500000000000002,
+              -0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              0.66
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              0.66
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              0.66
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.18
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              0.66
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:crimson_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.18
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              0.66
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:nether_wastes_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.18
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              0.66
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:warped_forest_layer"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.62
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:soul_sand_valley"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.62
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:basalt_deltas"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:gravel_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:crimson_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:nether_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "minecraft:warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              0.17
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              0.2,
+              1
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:old_growth_warped_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.17,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.62,
+              1
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:gravel_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.62,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.6,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:caves"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.41000000000000003
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.66,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.27
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.66,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:soul_sand_valley_river"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.41000000000000003,
+              -0.25
+            ],
+            "erosion": [
+              -0.27,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.66,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:river"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              0.06
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              -0.27,
+              0.23
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.66,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:river"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.06,
+              1
+            ],
+            "continentalness": [
+              -0.25,
+              1
+            ],
+            "erosion": [
+              0.23,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.66,
+              1.1300000000000001
+            ],
+            "offset": 0
+          },
+          "biome": "lavaflow:caves"
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "settings": "lavaflow:nether",
+    "type": "minecraft:noise"
+  }
+}

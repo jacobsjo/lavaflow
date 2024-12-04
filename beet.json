@@ -1,0 +1,10 @@
+{
+    "author": "jacobsjo",
+    "description": "A new nether",
+    "data_pack": {
+        "pack_format": 61,
+        "load": ["."]
+    },
+
+    "output": "build"
+}

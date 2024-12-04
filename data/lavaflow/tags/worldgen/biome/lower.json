@@ -1,0 +1,9 @@
+{
+    "values": [
+        "minecraft:soul_sand_valley",
+        "lavaflow:soul_sand_valley_river",
+        "minecraft:basalt_deltas",
+        "lavaflow:ocean",
+        "lavaflow:gravel_beach"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "feature": "lavaflow:ghost_tree",
+    "placement": [
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "absolute": 48
+            }
+        },
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 14
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 32,
+            "target_condition": {
+                "type": "all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:has_sturdy_face",
+                        "direction": "up",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                ]
+            },
+            "allowed_search_condition": {
+                "type": "minecraft:true"
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

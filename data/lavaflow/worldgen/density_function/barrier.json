@@ -1,0 +1,8 @@
+{
+    "type": "range_choice",
+    "input": "lavaflow:ridge",
+    "min_inclusive": -0.06,
+    "max_exclusive": 0.06,
+    "when_in_range": -2,
+    "when_out_of_range": 0.5
+}

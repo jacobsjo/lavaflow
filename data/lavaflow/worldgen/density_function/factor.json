@@ -1,0 +1,70 @@
+{
+    "type": "spline",
+    "spline": {
+        "coordinate": "lavaflow:continentalness",
+        "points": [
+            {
+                "location": -0.32,
+                "value": 50,
+                "derivative": 0
+            },
+            {
+                "location": -0.35,
+                "value": {
+                    "coordinate": "lavaflow:erosion",
+                    "points": [
+                        {
+                            "location": -0.3,
+                            "derivative": 0,
+                            "value": {
+                                "coordinate": "lavaflow:ridge_abs",
+                                "points": [
+                                    {
+                                        "location": 0.08,
+                                        "value": 50,
+                                        "derivative": 0
+                                    },
+                                    {
+                                        "location": 0.1,
+                                        "value": 15,
+                                        "derivative": 0
+                                    },
+                                    {
+                                        "location": 0.6,
+                                        "value": 15,
+                                        "derivative": 0
+                                    },
+                                    {
+                                        "location": 0.8,
+                                        "value": 14,
+                                        "derivative": 0
+                                    }
+                                ]
+                            } 
+                        },
+                        {
+                            "location": -0.2,
+                            "derivative": 0,
+                            "value": {
+                                "coordinate": "lavaflow:ridge_abs",
+                                "points": [
+                                    {
+                                        "location": 0.08,
+                                        "value": 50,
+                                        "derivative": 0
+                                    },
+                                    {
+                                        "location": 0.1,
+                                        "value": 14,
+                                        "derivative": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "derivative": 0
+            }
+        ]
+    }
+}

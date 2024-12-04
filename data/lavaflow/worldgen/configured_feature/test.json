@@ -1,0 +1,87 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+        "trunk_placer": {
+            "type": "minecraft:giant_trunk_placer",
+            "base_height": 10,
+            "height_rand_a": 10,
+            "height_rand_b": 10
+        },
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:warped_stem",
+                "Properties": {
+                    "axis": "y"
+                }
+            }
+        },
+        "foliage_placer": {
+            "type": "minecraft:cherry_foliage_placer",
+            "height": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 9,
+                "min_inclusive": 6
+            },
+            "offset": 0,
+            "radius": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 5,
+                "min_inclusive": 3
+            },
+            "corner_hole_chance": 1,
+            "hanging_leaves_chance": 1,
+            "hanging_leaves_extension_chance": 1,
+            "wide_bottom_layer_hole_chance": 1
+        },
+        "foliage_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "data": {
+                        "Name": "minecraft:warped_wart_block"
+                    },
+                    "weight": 2
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:air"
+                    },
+                    "weight": 1
+                }
+            ]
+        },
+        "decorators": [
+            {
+                "type": "minecraft:attached_to_leaves",
+                "directions": [
+                    "down",
+                    "up"
+                ],
+                "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:shroomlight"
+                    }
+                },
+                "exclusion_radius_xz": 0,
+                "exclusion_radius_y": 0,
+                "probability": 0.033,
+                "required_empty_blocks": 1
+            }
+        ],
+        "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:netherrack"
+            }
+        },
+        "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "min_clipped_height": 1,
+            "limit": 1,
+            "lower_size": 1,
+            "upper_size": 1
+        }
+    }
+}

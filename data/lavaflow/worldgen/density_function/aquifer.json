@@ -1,0 +1,53 @@
+{
+    "type": "range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": 0,
+    "max_exclusive": 79,
+    "when_out_of_range": -1,
+    "when_in_range": {
+        "type": "spline",
+        "spline": {
+            "coordinate": "lavaflow:continentalness",
+            "points": [
+                {
+                    "location": -0.37,
+                    "value": 0.2,
+                    "derivative": 0
+                },
+                {
+                    "location": -0.17,
+                    "value": {
+                        "coordinate": "lavaflow:erosion",
+                        "points": [
+                            {
+                                "location": 0.1,
+                                "value": 0.2,
+                                "derivative": 0
+                            },
+                            {
+                                "location": 0.3,
+                                "value": {
+                                    "coordinate": "lavaflow:ridge_abs",
+                                    "points": [
+                                        {
+                                            "location": 0.1,
+                                            "value": 0.6,
+                                            "derivative": 0
+                                        },
+                                        {
+                                            "location": 0.3,
+                                            "value": 0.2,
+                                            "derivative": 0 
+                                        }
+                                    ]
+                                },
+                                "derivative": 0
+                            }
+                        ]
+                    },
+                    "derivative": 0
+                }
+            ]
+        }
+    }
+}

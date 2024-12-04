@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 20,
+        "discard_chance_on_air_exposure": 0,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:air"
+                },
+                "state": {
+                    "Name": "minecraft:blackstone"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:netherrack",
+                    "probability": 0.4
+                },
+                "state": {
+                    "Name": "minecraft:nether_gold_ore"
+                }
+            }
+
+        ]
+    }
+}

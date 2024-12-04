@@ -1,0 +1,34 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:list_pool_element",
+                "elements": [
+                    {
+                        "element_type": "minecraft:single_pool_element",
+                        "location": "minecraft:bastion/treasure/entrances/entrance_0",
+                        "processors": "minecraft:treasure_rooms",
+                        "projection": "rigid"
+                    },
+                    {
+                        "element_type": "minecraft:feature_pool_element",
+                        "feature": {
+                            "feature": "lavaflow:bastion_access",
+                            "placement": [
+                                {
+                                    "type": "minecraft:random_offset",
+                                    "xz_spread": 2,
+                                    "y_spread": 10
+                                }
+                            ]
+                        },
+                        "projection": "rigid"
+                    }
+                ],
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}
