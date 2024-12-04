@@ -11,7 +11,7 @@
         [],
         "#lavaflow:vegetal_decoration/river"
     ],
-    "carvers": {},
+    "carvers": [],
     "downfall": 0.0,
     "has_precipitation": false,
     "spawners": {
@@ -38,12 +38,17 @@
             "sound": "minecraft:ambient.nether_wastes.mood",
             "tick_delay": 6000
         },
-        "music": {
-            "max_delay": 24000,
-            "min_delay": 12000,
-            "replace_current_music": false,
-            "sound": "minecraft:music.nether.nether_wastes"
-        },
+        "music": [
+            {
+                "weight": 1,
+                "data": {
+                    "max_delay": 24000,
+                    "min_delay": 12000,
+                    "replace_current_music": false,
+                    "sound": "minecraft:music.nether.nether_wastes"
+                }
+            }
+        ],
         "fog_color": 3344392,
         "sky_color": 7254527,
         "water_color": 4159204,

@@ -1,7 +1,7 @@
 {
     "pack": {
         "description": "A new nether",
-        "pack_format": 48
+        "pack_format": 61
     },
     "filter": {
         "block": [

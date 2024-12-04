@@ -5,6 +5,8 @@
         "pack_format": 61,
         "load": ["."]
     },
-
+    "pipeline": [
+        "src.snowcapped"
+    ],
     "output": "build"
 }

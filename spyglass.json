@@ -2,7 +2,7 @@
   "env": {
     "dependencies": [
       "@vanilla-datapack",
-      "file:///home/jochen/Projects/Minecraft/vanilla-mcdoc"
+      "@vanilla-mcdoc"
     ]
   },
   "lint": {

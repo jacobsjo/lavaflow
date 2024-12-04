@@ -11,9 +11,9 @@
         [],
         "#lavaflow:vegetal_decoration/warped_forest_layer"
     ],
-    "carvers": {
-        "air": "minecraft:nether_cave"
-    },
+    "carvers": [
+        "minecraft:nether_cave"
+    ],
     "downfall": 0.0,
     "effects": {
         "additions_sound": {
@@ -28,12 +28,17 @@
             "sound": "minecraft:ambient.warped_forest.mood",
             "tick_delay": 6000
         },
-        "music": {
-            "max_delay": 24000,
-            "min_delay": 12000,
-            "replace_current_music": false,
-            "sound": "minecraft:music.nether.warped_forest"
-        },
+        "music": [
+            {
+                "weight": 1,
+                "data": {
+                    "max_delay": 24000,
+                    "min_delay": 12000,
+                    "replace_current_music": false,
+                    "sound": "minecraft:music.nether.warped_forest"
+                }
+            }
+        ],
         "particle": {
             "options": {
                 "type": "minecraft:warped_spore"
