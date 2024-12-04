@@ -11,7 +11,7 @@
         [],
         "#lavaflow:vegetal_decoration/soul_sand_valley"
     ],
-    "carvers": {},
+    "carvers": [],
     "downfall": 0.0,
     "effects": {
         "additions_sound": {
@@ -26,12 +26,17 @@
             "sound": "minecraft:ambient.soul_sand_valley.mood",
             "tick_delay": 6000
         },
-        "music": {
-            "max_delay": 24000,
-            "min_delay": 12000,
-            "replace_current_music": false,
-            "sound": "minecraft:music.nether.soul_sand_valley"
-        },
+        "music": [
+            {
+                "weight": 1,
+                "data": {
+                    "max_delay": 24000,
+                    "min_delay": 12000,
+                    "replace_current_music": false,
+                    "sound": "minecraft:music.nether.soul_sand_valley"
+                }
+            }
+        ],
         "particle": {
             "options": {
                 "type": "minecraft:ash"
