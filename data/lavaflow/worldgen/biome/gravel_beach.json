@@ -11,7 +11,7 @@
         [],
         "#lavaflow:vegetal_decoration/gravel_beach"
     ],
-    "carvers": [],
+    "carvers": "#lavaflow:caves",
     "downfall": 0.0,
     "has_precipitation": false,
     "spawners": {},

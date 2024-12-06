@@ -11,9 +11,7 @@
         [],
         "#lavaflow:vegetal_decoration/old_growth_warped_forest"
     ],
-    "carvers": [
-        "minecraft:nether_cave"
-    ],
+    "carvers": "#lavaflow:caves",
     "downfall": 0.0,
     "effects": {
         "additions_sound": {

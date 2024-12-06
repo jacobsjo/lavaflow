@@ -11,7 +11,7 @@
         [],
         "#lavaflow:vegetal_decoration/base_upper"
     ],
-    "carvers": [],
+    "carvers": "#lavaflow:caves",
     "downfall": 0.0,
     "effects": {
         "additions_sound": {

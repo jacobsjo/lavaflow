@@ -11,7 +11,7 @@
         [],
         "#lavaflow:vegetal_decoration/soul_sand_valley_river"
     ],
-    "carvers": [],
+    "carvers": "#lavaflow:caves",
     "downfall": 0.0,
     "effects": {
         "additions_sound": {
