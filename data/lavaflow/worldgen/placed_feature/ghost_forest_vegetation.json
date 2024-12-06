@@ -1,15 +1,15 @@
 {
-    "feature": "lavaflow:ghost_tree",
+    "feature": "lavaflow:ghost_forest_vegetation",
     "placement": [
         {
             "type": "minecraft:height_range",
             "height": {
-                "absolute": 48
+                "absolute": 65
             }
         },
         {
-            "type": "minecraft:rarity_filter",
-            "chance": 14
+            "type": "minecraft:count",
+            "count": 4
         },
         {
             "type": "minecraft:in_square"

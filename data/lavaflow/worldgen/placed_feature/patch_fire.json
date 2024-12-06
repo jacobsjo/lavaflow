@@ -2,42 +2,12 @@
     "feature": "minecraft:patch_fire",
     "placement": [
         {
-            "type": "minecraft:height_range",
-            "height": {
-                "absolute": 91
-            }
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
         },
         {
             "type": "minecraft:rarity_filter",
-            "chance": 2
-        },
-        {
-            "type": "in_square"
-        },
-        {
-            "type": "minecraft:environment_scan",
-            "direction_of_search": "down",
-            "max_steps": 32,
-            "target_condition": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                    {
-                        "type": "minecraft:replaceable"
-                    },
-                    {
-                        "type": "minecraft:has_sturdy_face",
-                        "direction": "up",
-                        "offset": [
-                            0,
-                            -2,
-                            0
-                        ]
-                    }
-                ]
-            },
-            "allowed_search_condition": {
-                "type": "minecraft:true"
-            }
+            "chance": 3
         },
         {
             "type": "minecraft:biome"

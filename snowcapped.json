@@ -2,8 +2,8 @@
   "dimensionName": "minecraft:the_nether",
   "continentalnesses": [
     -1.2,
-    -0.41000000000000003,
-    -0.25,
+    -0.23500000000000001,
+    -0.18,
     1
   ],
   "erosions": [
@@ -42,6 +42,7 @@
   ],
   "depths": [
     -0.75,
+    0.32,
     0.6,
     0.66,
     1.1300000000000001
@@ -50,6 +51,15 @@
     "key": "dimension",
     "name": "Biomes",
     "array": [
+      [
+        "layout_m4by39ci",
+        "layout_m4by39ci",
+        "layout_m4by39ci",
+        "layout_m4by39ci",
+        "layout_m4by39ci",
+        "layout_m4by39ci",
+        "layout_m4by39ci"
+      ],
       [
         "layout_lyajghg0",
         "layout_lyacg92p",
@@ -148,40 +158,40 @@
         [
           "minecraft:soul_sand_valley",
           "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
+          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
+          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
           "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ],
         [
           "minecraft:soul_sand_valley",
           "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
+          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
+          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
           "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ],
         [
+          "biome_m4aq8xq2",
           "minecraft:soul_sand_valley",
           "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
+          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
           "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ],
         [
+          "biome_m4aq8xq2",
+          "biome_m4aq8xq2",
           "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
+          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
           "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ],
         [
+          "biome_m4aq8xq2",
+          "biome_m4aq8xq2",
           "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
+          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
           "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ]
@@ -222,6 +232,52 @@
           "biome_lyacdvco",
           "biome_lyacdvco",
           "biome_lyacdvco"
+        ],
+        [
+          "biome_lyacdvco",
+          "biome_lyacdvco",
+          "biome_lyacdvco",
+          "biome_lyacdvco",
+          "biome_lyacdvco",
+          "biome_lyacdvco"
+        ]
+      ]
+    },
+    {
+      "key": "layout_m4by39ci",
+      "name": "Middle (high layer)",
+      "array": [
+        [
+          "biome_lyaceptn",
+          "biome_lyaceptn",
+          "biome_lyaceptn",
+          "biome_lyaceptn",
+          "biome_lyaceptn",
+          "biome_lyaceptn"
+        ],
+        [
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi"
+        ],
+        [
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi"
+        ],
+        [
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "biome_lyacebqi"
         ],
         [
           "biome_lyacdvco",
@@ -565,6 +621,11 @@
       "key": "biome_lyark9fq",
       "name": "lavaflow:old_growth_warped_forest",
       "color": "#0ba1fe"
+    },
+    {
+      "key": "biome_m4aq8xq2",
+      "name": "lavaflow:ghost_forest",
+      "color": "#b8b7b7"
     }
   ],
   "targetVersion": "1_19",

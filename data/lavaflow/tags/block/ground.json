@@ -5,6 +5,9 @@
         "minecraft:red_terracotta",
         "minecraft:crimson_nylium",
         "minecraft:warped_nylium",
-        "minecraft:magma_block"
+        "minecraft:magma_block",
+        "minecraft:soul_soil",
+        "minecraft:soul_sand",
+        "minecraft:pale_moss_block"
     ]
 }

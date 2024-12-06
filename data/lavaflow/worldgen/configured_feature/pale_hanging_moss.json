@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:block_column",
+    "config": {
+        "direction": "down",
+        "allowed_placement": {
+            "type": "minecraft:replaceable"
+        },
+        "layers": [
+            {
+                "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": 1,
+                    "max_inclusive": 5
+                },
+                "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:pale_hanging_moss",
+                        "Properties": {
+                            "tip": "false"
+                        }
+                    }
+                }
+            },
+            {
+                "height": 1,
+                "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:pale_hanging_moss",
+                        "Properties": {
+                            "tip": "true"
+                        }
+                    }
+                }
+            }
+        ],
+        "prioritize_tip": true
+    }
+}

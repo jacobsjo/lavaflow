@@ -1,15 +1,15 @@
 {
-    "feature": "minecraft:glowstone_extra",
+    "feature": "lavaflow:pale_hanging_moss",
     "placement": [
         {
             "type": "minecraft:height_range",
             "height": {
-                "absolute": 105
+                "absolute": 65
             }
         },
         {
-            "type": "minecraft:rarity_filter",
-            "chance": 1
+            "type": "minecraft:count",
+            "count": 32
         },
         {
             "type": "minecraft:in_square"
@@ -19,23 +19,17 @@
         },
         {
             "type": "minecraft:environment_scan",
-            "direction_of_search": "up",
+            "direction_of_search": "down",
             "max_steps": 32,
             "target_condition": {
                 "type": "all_of",
                 "predicates": [
                     {
-                        "type": "minecraft:matching_blocks",
-                        "blocks": "#minecraft:air",
-                        "offset": [
-                            0,
-                            0,
-                            0
-                        ]
+                        "type": "minecraft:replaceable"
                     },
                     {
-                        "type": "minecraft:has_sturdy_face",
-                        "direction": "down",
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:pale_oak_leaves",
                         "offset": [
                             0,
                             1,
@@ -45,7 +39,7 @@
                 ]
             },
             "allowed_search_condition": {
-                "type": "minecraft:replaceable"
+                "type": "minecraft:true"
             }
         }
     ]

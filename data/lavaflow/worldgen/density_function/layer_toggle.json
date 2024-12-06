@@ -20,12 +20,12 @@
                 "coordinate": "lavaflow:continentalness",
                 "points": [
                     {
-                        "location": -0.35,
+                        "location": -0.28,
                         "derivative": 0,
                         "value": 1
                     },
                     {
-                        "location": -0.32,
+                        "location": -0.25,
                         "derivative": 0,
                         "value": {
                             "coordinate": "lavaflow:erosion",
@@ -58,7 +58,7 @@
                         }
                     },
                     {
-                        "location": -0.25,
+                        "location": -0.12,
                         "derivative": 0,
                         "value": {
                             "coordinate": "lavaflow:erosion",

@@ -6,12 +6,12 @@
             "coordinate": "lavaflow:continentalness",
             "points": [
                 {
-                    "location": -0.43,
+                    "location": -0.25,
                     "value": -0.95,
                     "derivative": 0
                 },
                 {
-                    "location": -0.37,
+                    "location": -0.2,
                     "value": {
                         "coordinate": "lavaflow:offset/beach",
                         "points": [
@@ -25,7 +25,7 @@
                     "derivative": 0
                 },
                 {
-                    "location": -0.33,
+                    "location": -0.19,
                     "value": {
                         "coordinate": "lavaflow:offset/beach",
                         "points": [
@@ -39,7 +39,7 @@
                     "derivative": 0
                 },
                 {
-                    "location": -0.25,
+                    "location": -0.16,
                     "value": {
                         "coordinate": "lavaflow:offset/middle",
                         "points": [

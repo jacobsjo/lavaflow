@@ -1,9 +1,12 @@
 {
     "type": "cache_2d",
     "argument": {
-        "type": "noise",
+        "type": "minecraft:shifted_noise",
         "noise": "lavaflow:erosion",
         "xz_scale": 1,
-        "y_scale": 0
+        "y_scale": 0,
+        "shift_x": "lavaflow:shift_x",
+        "shift_y": 0,
+        "shift_z": "lavaflow:shift_z"
     }
 }

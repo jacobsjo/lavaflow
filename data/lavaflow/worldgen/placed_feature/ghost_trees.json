@@ -1,0 +1,55 @@
+{
+    "feature": "lavaflow:ghost_tree",
+    "placement": [
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "absolute": 65
+            }
+        },
+        {
+            "type": "minecraft:count",
+            "count": 20
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 32,
+            "target_condition": {
+                "type": "all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:soul_soil",
+                            "minecraft:pale_moss_block"
+                        ],
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                ]
+            },
+            "allowed_search_condition": {
+                "type": "minecraft:not",
+                "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                        "minecraft:basalt"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

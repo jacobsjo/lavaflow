@@ -3,6 +3,10 @@
     "dependencies": [
       "@vanilla-datapack",
       "@vanilla-mcdoc"
+    ],
+    "exclude": [
+      "build",
+      ".beet_cache"
     ]
   },
   "lint": {

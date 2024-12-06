@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:mul",
+    "argument1": {
+        "type": "minecraft:shift_a",
+        "argument": "lavaflow:shift"
+    },
+    "argument2": 8
+}

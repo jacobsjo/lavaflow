@@ -1,5 +1,6 @@
 {
     "values": [
+        "#lavaflow:vegetal_decoration/base_lower",
         "lavaflow:river_crossing_lower",
         "lavaflow:river_crossing_upper"
     ]

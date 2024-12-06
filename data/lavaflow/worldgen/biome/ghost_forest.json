@@ -9,7 +9,7 @@
         [],
         "#lavaflow:underground_decoration/base",
         [],
-        "#lavaflow:vegetal_decoration/soul_sand_valley_river"
+        "#lavaflow:vegetal_decoration/ghost_forest"
     ],
     "carvers": [],
     "downfall": 0.0,
@@ -19,37 +19,31 @@
             "tick_chance": 0.0111
         },
         "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
-        "fog_color": 1787717,
+        "fog_color": 3558731,
         "mood_sound": {
             "block_search_extent": 8,
             "offset": 2.0,
             "sound": "minecraft:ambient.soul_sand_valley.mood",
             "tick_delay": 6000
         },
-        "music": [
-            {
-                "weight": 1,
-                "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
-                    "replace_current_music": false,
-                    "sound": "minecraft:music.nether.soul_sand_valley"
-                }
-            }
-        ],
+        "music": [],
+        "music_volume": 0,
         "particle": {
             "options": {
-                "type": "minecraft:ash"
+                "type": "minecraft:dust",
+                "scale": 1,
+                "color": 6583410
             },
-            "probability": 0.00625
+            "probability": 0.02
         },
-        "sky_color": 7254527,
-        "water_color": 4159204,
-        "water_fog_color": 329011
+        "grass_color": 9676968,
+        "sky_color": 3558731,
+        "water_color": 3558731,
+        "water_fog_color": 3558731
     },
     "has_precipitation": false,
     "spawn_costs": {
-        "minecraft:ghast": {
+        "minecraft:skeleton": {
             "charge": 0.7,
             "energy_budget": 0.15
         }
@@ -59,19 +53,19 @@
         "axolotls": [],
         "creature": [
             {
-                "type": "minecraft:strider",
-                "maxCount": 2,
+                "type": "minecraft:horse",
+                "maxCount": 3,
                 "minCount": 1,
-                "weight": 5000
+                "weight": 1
             }
         ],
         "misc": [],
         "monster": [
             {
-                "type": "minecraft:ghast",
+                "type": "minecraft:skeleton",
                 "maxCount": 4,
                 "minCount": 4,
-                "weight": 50
+                "weight": 1
             }
         ],
         "underground_water_creature": [],

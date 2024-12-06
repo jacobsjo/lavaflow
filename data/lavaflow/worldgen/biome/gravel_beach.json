@@ -7,7 +7,9 @@
         [],
         [],
         [],
-        "#lavaflow:underground_decoration/base"        
+        "#lavaflow:underground_decoration/base",
+        [],
+        "#lavaflow:vegetal_decoration/gravel_beach"
     ],
     "carvers": [],
     "downfall": 0.0,

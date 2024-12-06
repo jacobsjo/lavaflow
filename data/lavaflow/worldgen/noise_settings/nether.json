@@ -145,6 +145,21 @@
                                     {
                                         "type": "minecraft:condition",
                                         "if_true": {
+                                            "type": "minecraft:biome",
+                                            "biome_is": [
+                                                "lavaflow:ghost_forest"
+                                            ]
+                                        },
+                                        "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                                "Name": "minecraft:soul_soil"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "minecraft:condition",
+                                        "if_true": {
                                             "type": "minecraft:y_above",
                                             "anchor": {
                                                 "absolute": 31
@@ -208,7 +223,7 @@
                                                     "add_stone_depth": false,
                                                     "surface_depth_multiplier": 0,
                                                     "anchor": {
-                                                        "absolute": 34
+                                                        "absolute": 38
                                                     }
                                                 }
                                             },
@@ -216,35 +231,6 @@
                                                 "type": "minecraft:block",
                                                 "result_state": {
                                                     "Name": "minecraft:gravel"
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:condition",
-                                        "if_true": {
-                                            "type": "minecraft:biome",
-                                            "biome_is": [
-                                                "lavaflow:ocean"
-                                            ]
-                                        },
-                                        "then_run": {
-                                            "type": "minecraft:condition",
-                                            "if_true": {
-                                                "type": "minecraft:not",
-                                                "invert": {
-                                                    "type": "minecraft:y_above",
-                                                    "anchor": {
-                                                        "absolute": 31
-                                                    },
-                                                    "add_stone_depth": false,
-                                                    "surface_depth_multiplier": 1
-                                                }
-                                            },
-                                            "then_run": {
-                                                "type": "minecraft:block",
-                                                "result_state": {
-                                                    "Name": "minecraft:magma_block"
                                                 }
                                             }
                                         }
@@ -270,7 +256,8 @@
                                             "type": "minecraft:biome",
                                             "biome_is": [
                                                 "minecraft:soul_sand_valley",
-                                                "lavaflow:soul_sand_valley_river"
+                                                "lavaflow:soul_sand_valley_river",
+                                                "lavaflow:ghost_forest"
                                             ]
                                         },
                                         "then_run": {
@@ -346,6 +333,42 @@
                             }
                         }
                     ]
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "surface_type": "ceiling",
+                    "add_surface_depth": true,
+                    "offset": 0,
+                    "secondary_depth_range": 10
+                },
+                "then_run": {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                        "type": "minecraft:y_above",
+                        "add_stone_depth": false,
+                        "anchor": {
+                            "absolute": 110
+                        },
+                        "surface_depth_multiplier": 0
+                    },
+                    "then_run": {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "noise": "lavaflow:ceiling_stipes",
+                            "min_threshold": -0.2,
+                            "max_threshold": 0.2
+                        },
+                        "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                                "Name": "minecraft:smooth_basalt"
+                            }
+                        }
+                    }
                 }
             },
             {

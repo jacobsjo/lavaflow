@@ -2,6 +2,7 @@
     "values": [
         "minecraft:crimson_forest",
         "minecraft:warped_forest",
-        "minecraft:nether_wastes"
+        "minecraft:nether_wastes",
+        "lavaflow:old_growth_warped_forest"
     ]
 }
