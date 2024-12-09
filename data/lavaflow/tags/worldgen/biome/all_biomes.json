@@ -1,0 +1,14 @@
+{
+    "values": [
+        "lavaflow:caves",
+        "lavaflow:crimson_forest_layer",
+        "lavaflow:warped_forest_layer",
+        "lavaflow:nether_wastes_layer",
+        "lavaflow:ghost_forest",
+        "lavaflow:river",
+        "lavaflow:soul_sand_valley_river",
+        "lavaflow:ocean",
+        "lavaflow:gravel_beach",
+        "lavaflow:old_growth_warped_forest"
+    ]
+}

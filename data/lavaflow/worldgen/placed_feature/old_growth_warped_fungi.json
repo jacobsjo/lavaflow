@@ -35,6 +35,13 @@
                             -1,
                             0
                         ]
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_fluids",
+                            "fluids": "minecraft:lava"
+                        }
                     }
                 ]
             },

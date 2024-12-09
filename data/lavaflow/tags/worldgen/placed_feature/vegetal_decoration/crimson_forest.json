@@ -2,7 +2,7 @@
     "values": [
         "#lavaflow:vegetal_decoration/base_upper",
         "minecraft:weeping_vines",
-        "minecraft:crimson_fungi",
+        "lavaflow:crimson_fungi",
         "minecraft:crimson_forest_vegetation"
     ]
 }

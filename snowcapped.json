@@ -72,9 +72,9 @@
       [
         "layout_ly0p8cdy",
         "layout_ly06r20n",
-        "layout_ly1gqqkd",
+        "layout_m4haq4h9",
         "layout_ly0pf5an",
-        "layout_ly1gqqkd",
+        "layout_m4haq4h9",
         "layout_ly06r20n",
         "layout_ly0p8cdy"
       ],
@@ -456,6 +456,30 @@
           "layout_ly07nrbu",
           "layout_ly07nrbu",
           "biome_ly0cmo72"
+        ]
+      ]
+    },
+    {
+      "key": "layout_m4haq4h9",
+      "name": "Canyon (middle)",
+      "array": [
+        [
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd"
+        ],
+        [
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd"
+        ],
+        [
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_lyaksz57"
         ]
       ]
     },
