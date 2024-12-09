@@ -6,13 +6,15 @@ data_pack:
   pack_format: 61
   load:
   - "."
-resource_pack:
-  load: [.]
 meta:
   copy_files:
     data_pack:
       data/c/structure_icons.json: data/c/structure_icons.json
       assets/lavaflow/lang: assets/lavaflow/lang
+      LICENSE.txt: LICENSE.txt
+      agpl.txt: agpl.txt
+      README.md: README.md
+
 pipeline:
 - src.snowcapped
 - src.tags
