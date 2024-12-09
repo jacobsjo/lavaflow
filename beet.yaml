@@ -1,0 +1,19 @@
+author: jacobsjo
+description: A new nether
+require:
+- beet.contrib.copy_files
+data_pack:
+  pack_format: 61
+  load:
+  - "."
+resource_pack:
+  load: [.]
+meta:
+  copy_files:
+    data_pack:
+      data/c/structure_icons.json: data/c/structure_icons.json
+      assets/lavaflow/lang: assets/lavaflow/lang
+pipeline:
+- src.snowcapped
+- src.tags
+output: build

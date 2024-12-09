@@ -1,0 +1,14 @@
+{
+    "minecraft:bastion_remnant/bridge": {
+        "item": "minecraft:gilded_blackstone"
+    },
+    "minecraft:bastion_remnant/hoglin_stable": {
+        "item": "minecraft:hoglin_spawn_egg"
+    },
+    "minecraft:bastion_remnant/housing": {
+        "item": "minecraft:piglin_brute_spawn_egg"
+    },
+    "minecraft:bastion_remnant/treasure": {
+        "item": "minecraft:gold_block"
+    }
+}
