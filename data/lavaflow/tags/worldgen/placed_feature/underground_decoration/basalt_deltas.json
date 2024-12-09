@@ -2,10 +2,6 @@
     "values": [
         "minecraft:basalt_blobs",
         "minecraft:blackstone_blobs",
-        "minecraft:ore_magma",
-        "minecraft:ore_gold_deltas",
-        "minecraft:ore_quartz_deltas",
-        "minecraft:ore_ancient_debris_large",
-        "minecraft:ore_debris_small"        
+        "#lavaflow:underground_decoration/base"
     ]
 }

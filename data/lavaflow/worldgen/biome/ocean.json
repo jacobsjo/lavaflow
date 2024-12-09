@@ -2,12 +2,12 @@
     "features": [
         [],
         [],
+        "#lavaflow:local_modifications/base",
         [],
         [],
         [],
         [],
-        [],
-        "#lavaflow:underground_decoration/base",
+        "#lavaflow:underground_decoration/ocean",
         [],
         "#lavaflow:vegetal_decoration/ocean"
     ],

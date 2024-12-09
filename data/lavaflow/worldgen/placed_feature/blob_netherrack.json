@@ -1,0 +1,32 @@
+{
+    "feature": "lavaflow:blob_netherrack",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2                
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 5 
+                },
+                "max_inclusive": {
+                    "absolute": 50
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+
+    ]
+}

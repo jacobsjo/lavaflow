@@ -1,0 +1,7 @@
+{
+    "values": [
+        "#lavaflow:local_modifications/base",
+        "lavaflow:cave_ceiling",
+        "lavaflow:cave_floor"
+    ]
+}

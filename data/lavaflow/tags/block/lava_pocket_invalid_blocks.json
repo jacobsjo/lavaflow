@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:air",
+        "minecraft:lava",
+        "minecraft:soul_soil",
+        "minecraft:soul_sand",
+        "minecraft:crimson_nylium",
+        "minecraft:warped_nylium"
+    ]
+}

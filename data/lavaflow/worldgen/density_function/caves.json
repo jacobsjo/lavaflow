@@ -27,14 +27,14 @@
                     "argument1": "lavaflow:depth",
                     "argument2": {
                         "type": "add",
-                        "argument1": -0.75,
+                        "argument1": -0.734,
                         "argument2": {
                             "type": "mul",
-                            "argument1": 0.35,
+                            "argument1": 0.18,
                             "argument2": {
                                 "type": "noise",
                                 "noise": "lavaflow:cave_height",
-                                "xz_scale": 1,
+                                "xz_scale": 0.7,
                                 "y_scale": 0
                             }
                         }

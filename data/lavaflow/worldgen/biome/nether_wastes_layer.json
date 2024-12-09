@@ -2,7 +2,7 @@
     "features": [
         [],
         [],
-        [],
+        "#lavaflow:local_modifications/base",
         [],
         "#lavaflow:surface_structures/nether_wastes",
         [],

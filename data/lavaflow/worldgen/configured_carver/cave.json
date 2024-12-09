@@ -14,7 +14,7 @@
         "lava_level": {
             "above_bottom": 0
         },
-        "probability": 0.25,
+        "probability": 0.3,
         "replaceable": "#minecraft:nether_carver_replaceables",
         "vertical_radius_multiplier": {
             "type": "minecraft:uniform",
@@ -27,7 +27,7 @@
                 "below_top": 5
             },
             "min_inclusive": {
-                "above_bottom": 5
+                "above_bottom": 45
             }
         },
         "yScale": {
