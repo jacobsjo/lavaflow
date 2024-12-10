@@ -17,5 +17,5 @@ meta:
 
 pipeline:
 - src.snowcapped
-- src.tags
+- src.handleBiomes
 output: build
