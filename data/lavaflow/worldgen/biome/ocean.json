@@ -27,10 +27,10 @@
     "spawn_costs": {},
     "effects": {
         "additions_sound": {
-            "sound": "minecraft:ambient.nether_wastes.additions",
+            "sound": "minecraft:ambient.soul_sand_valley.additions",
             "tick_chance": 0.0111
         },
-        "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+        "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
         "mood_sound": {
             "block_search_extent": 8,
             "offset": 2.0,
