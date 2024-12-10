@@ -5,7 +5,7 @@
         "points": [
             {
                 "location": -0.27,
-                "value": 1,
+                "value": 0,
                 "derivative": 0
             },
             {
@@ -20,22 +20,22 @@
                                 "points": [
                                     {
                                         "location": 0.05,
-                                        "value": 0,
+                                        "value": -1,
                                         "derivative": 0
                                     },
                                     {
                                         "location": 0.1,
-                                        "value": 0.5,
+                                        "value": -0.2,
                                         "derivative": 0
                                     },
                                     {
                                         "location": 0.35,
-                                        "value": 0.5,
+                                        "value": -0.2,
                                         "derivative": 0
                                     },
                                     {
                                         "location": 0.45,
-                                        "value": 1,
+                                        "value": 0,
                                         "derivative": 0
                                     }
                                 ]
@@ -49,12 +49,12 @@
                                 "points": [
                                     {
                                         "location": 0.05,
-                                        "value": 0,
+                                        "value": -1,
                                         "derivative": 0
                                     },
                                     {
                                         "location": 0.1,
-                                        "value": 1,
+                                        "value": 0,
                                         "derivative": 0
                                     }
                                 ]

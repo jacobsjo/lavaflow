@@ -5,6 +5,6 @@
     },
     "min_inclusive": -1000000,
     "max_exclusive": -0.01,
-    "when_in_range": 0,
-    "when_out_of_range": 1
+    "when_in_range": -1,
+    "when_out_of_range": 0
 }

@@ -5,7 +5,7 @@
     "size": 6,
     "spawn_overrides": {},
     "start_height": {
-        "absolute": 76
+        "absolute": 74
     },
     "start_pool": "minecraft:bastion/start_hoglin_stable",
     "step": "surface_structures",

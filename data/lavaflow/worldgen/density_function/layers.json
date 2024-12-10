@@ -1,0 +1,17 @@
+{
+    "type": "add",
+    "argument1": {
+        "type": "max",
+        "argument1": {
+            "type": "add",
+            "argument1": "lavaflow:layer_toggle",
+            "argument2": "lavaflow:layer"
+        },
+        "argument2": {
+            "type": "add",
+            "argument1": "lavaflow:upper_layer_toggle",
+            "argument2": "lavaflow:upper_layer"
+        }
+    },
+    "argument2": -0.0001
+}
