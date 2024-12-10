@@ -46,23 +46,26 @@
         "minecraft:skeleton": {
             "charge": 0.7,
             "energy_budget": 0.15
+        },
+        "minecraft:enderman": {
+            "charge": 0.7,
+            "energy_budget": 0.15
         }
     },
     "spawners": {
         "ambient": [],
         "axolotls": [],
-        "creature": [
-            {
-                "type": "minecraft:horse",
-                "maxCount": 3,
-                "minCount": 1,
-                "weight": 1
-            }
-        ],
+        "creature": [],
         "misc": [],
         "monster": [
             {
                 "type": "minecraft:skeleton",
+                "maxCount": 5,
+                "minCount": 5,
+                "weight": 20
+            },
+            {
+                "type": "minecraft:enderman",
                 "maxCount": 4,
                 "minCount": 4,
                 "weight": 1

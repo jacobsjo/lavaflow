@@ -13,19 +13,6 @@
     ],
     "carvers": "#lavaflow:caves",
     "downfall": 0.0,
-    "has_precipitation": false,
-    "spawners": {
-        "monster": [
-            {
-                "type": "minecraft:magma_cube",
-                "maxCount": 1,
-                "minCount": 1,
-                "weight": 1000
-            }
-        ]
-    },
-    "temperature": 2.0,
-    "spawn_costs": {},
     "effects": {
         "additions_sound": {
             "sound": "minecraft:ambient.basalt_deltas.additions",
@@ -53,5 +40,37 @@
         "sky_color": 7254527,
         "water_color": 4159204,
         "water_fog_color": 329011
-    }
+    },
+    "has_precipitation": false,
+    "spawn_costs": {},
+    "spawners": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [
+            {
+                "type": "minecraft:magma_cube",
+                "maxCount": 4,
+                "minCount": 2,
+                "weight": 100
+            },
+            {
+                "type": "minecraft:zombified_piglin",
+                "maxCount": 4,
+                "minCount": 4,
+                "weight": 30
+            },
+            {
+                "type": "minecraft:enderman",
+                "maxCount": 4,
+                "minCount": 4,
+                "weight": 1
+            }
+        ],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "temperature": 2.0
 }
