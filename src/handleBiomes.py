@@ -18,15 +18,15 @@ def beet_default(ctx: Context):
             exploreNetherAdvancement.data['criteria'][biome] = {
                 "conditions": {
                     "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                        "location": {
-                            "biomes": biome
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "biomes": biome
+                                }
+                            }
                         }
-                        }
-                    }
                     ]
                 },
                 "trigger": "minecraft:location"

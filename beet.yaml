@@ -1,11 +1,17 @@
+id: lavaflow
+name: Lavaflow
+description: Overhauled Nether with lava rivers and more
 author: jacobsjo
-description: A new nether
 require:
 - beet.contrib.copy_files
 data_pack:
   pack_format: 61
-  load:
-  - "."
+  load: "."
+pipeline:
+- src.snowcapped
+- src.handleBiomes
+output: build
+
 meta:
   copy_files:
     data_pack:
@@ -14,8 +20,3 @@ meta:
       LICENSE.txt: LICENSE.txt
       agpl.txt: agpl.txt
       README.md: README.md
-
-pipeline:
-- src.snowcapped
-- src.handleBiomes
-output: build
