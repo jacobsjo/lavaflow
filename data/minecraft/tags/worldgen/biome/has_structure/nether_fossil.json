@@ -1,5 +1,4 @@
 {
-    "values": [
-        "lavaflow:ghost_forest"
-    ]
+    "replace": true,
+    "values": []
 }
