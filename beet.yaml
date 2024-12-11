@@ -15,8 +15,9 @@ output: build
 meta:
   copy_files:
     data_pack:
+      .: public
       data/c/structure_icons.json: data/c/structure_icons.json
       assets/lavaflow/lang: assets/lavaflow/lang
       LICENSE.txt: LICENSE.txt
-      agpl.txt: agpl.txt
-      README.md: README.md
+      AGPL.txt: AGPL.txt
+      README.md: datapack_README.md
