@@ -11,5 +11,6 @@
     "terrain_adaptation": "none",
     "liquid_settings": "ignore_waterlogging",
     "start_pool": "lavaflow:scaffolding/base",
-    "spawn_overrides": {}
+    "spawn_overrides": {},
+    "start_jigsaw_name": "lavaflow:scaffolding/start"
 }

@@ -10,5 +10,8 @@
     },
     "minecraft:bastion_remnant/treasure": {
         "item": "minecraft:gold_block"
+    },
+    "lavaflow:scaffolding": {
+        "item": "minecraft:ladder"
     }
 }

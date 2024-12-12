@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:feature_pool_element",
+                "feature": {
+                    "feature": "lavaflow:scaffolding_foundation",
+                    "placement": [
+                        {
+                            "type": "minecraft:random_offset",
+                            "xz_spread": 0,
+                            "y_spread": -1
+                        }
+                    ]
+                },
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

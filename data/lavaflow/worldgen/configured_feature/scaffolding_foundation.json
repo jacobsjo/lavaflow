@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:block_column",
+    "config": {
+        "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "#minecraft:replaceable",
+            "offset": [0, 1, 0]
+        },
+        "direction": "down",
+        "layers": [
+            {
+                "height": 100,
+                "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:polished_blackstone_bricks"
+                    }
+                }
+            }
+        ],
+        "prioritize_tip": false
+    }
+}

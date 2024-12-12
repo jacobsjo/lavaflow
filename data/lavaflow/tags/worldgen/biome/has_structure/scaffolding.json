@@ -1,7 +1,5 @@
 {
     "values": [
-        "minecraft:soul_sand_valley",
-        "minecraft:basalt_deltas",
-        "lavaflow:ghost_forest"
+        "#lavaflow:valley"
     ]
 }

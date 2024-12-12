@@ -90,7 +90,7 @@
         "processor_type": "minecraft:block_ignore",
         "blocks": [
             {
-                "Name": "minecraft:andesite_slab"
+                "Name": "minecraft:polished_andesite_slab"
             },
             {
                 "Name": "minecraft:lime_concrete"
