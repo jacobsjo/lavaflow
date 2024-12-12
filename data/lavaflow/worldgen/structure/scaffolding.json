@@ -4,7 +4,7 @@
     "max_distance_from_center": 48,
     "size": 20,
     "start_height": {
-        "absolute": 35
+        "absolute": 37
     },
     "step": "strongholds",
     "use_expansion_hack": false,
