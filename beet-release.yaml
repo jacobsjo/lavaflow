@@ -1,0 +1,7 @@
+extend: 'beet.yaml'
+output: build
+pipeline:
+- beet.contrib.minify_json
+data_pack:
+  zipped: true
+  name: '{{project_id}}_{{project_version}}'
