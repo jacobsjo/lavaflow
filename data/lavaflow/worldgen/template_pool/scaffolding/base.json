@@ -1,0 +1,14 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/base",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

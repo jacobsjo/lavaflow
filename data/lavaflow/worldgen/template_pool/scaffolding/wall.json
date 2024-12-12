@@ -1,0 +1,106 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_1",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_2",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_3",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_4",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_5",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_6",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_7",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_ladder_1",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_ladder_2",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_ladder_3",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:scaffolding/wall_ladder_4",
+                "processors": "lavaflow:scaffolding",
+                "projection": "rigid"
+            }
+        }
+
+
+    ],
+    "fallback": "minecraft:empty"
+}

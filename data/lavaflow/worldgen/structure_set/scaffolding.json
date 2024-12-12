@@ -1,0 +1,14 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 235234267,
+      "separation": 4,
+      "spacing": 6
+    },
+    "structures": [
+      {
+        "structure": "lavaflow:scaffolding",
+        "weight": 1
+      }
+    ]
+  }

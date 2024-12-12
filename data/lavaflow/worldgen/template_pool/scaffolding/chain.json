@@ -1,0 +1,16 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:feature_pool_element",
+                "feature": {
+                    "placement": [],
+                    "feature": "lavaflow:chain_up"
+                },
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "minecraft:empty"
+}
