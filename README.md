@@ -7,6 +7,8 @@ Lavaflow completely overhauls the nether.
 Instead of the random noise of the vanilla nether, Lavaflow features specifically crafted terrain, like you are used to from the overworld - but way more 3d.
 Biomes are placed not at random but in places matching the terrain.
 
+![A view down to a nether fortress. In the forground is a lava river at higher elevations.](https://raw.githubusercontent.com/jacobsjo/lavaflow/main/gallery/02_lavafall_from_top.jpg)
+
 Find the high elevation lava rivers among crimson and warped forests. Among them some warped forests have grown older and taller then ever before.
 
 Follow the rivers them down the lavafalls into canyons and valleys.
