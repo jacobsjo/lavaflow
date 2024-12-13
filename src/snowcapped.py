@@ -1,4 +1,4 @@
-from beet import Context, Function
+from beet import Context
 from beet.contrib.worldgen import Dimension
 from src.BiomeColors import BiomeColors
 from subprocess import DEVNULL, STDOUT, check_call

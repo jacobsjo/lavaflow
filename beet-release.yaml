@@ -2,6 +2,24 @@ extend: 'beet.yaml'
 output: build
 pipeline:
 - beet.contrib.minify_json
+- src.modded
+
 data_pack:
   zipped: true
   name: '{{project_id}}_{{project_version}}'
+
+meta:
+  modded:
+    fabric: true
+    quilt: false
+    neoforge: true
+    mcforge: true
+    name: '{{project_id}}_{{project_version}}'
+    
+    group: eu.jacobsjo
+    min_minecraft_version: 1.21.4
+    max_minecraft_version: 1.21.5
+    license: AGPL-3.0-or-later
+    contact:
+      homepage: https://modrinth.com/datapack/lavaflow
+      issues: https://github.com/jacobsjo/lavaflow/issues
