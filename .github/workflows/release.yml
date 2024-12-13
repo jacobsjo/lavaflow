@@ -1,0 +1,71 @@
+name: release
+on:
+  release:
+    types:
+      - published
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Get Version
+        run: 
+        - TAG=${{ github.event.release.tag_name }}
+        - echo "VERSION=${TAG#v}" >> $GITHUB_ENV
+
+      - name: Install beet
+        run: pip install beet
+      - name: Install snowcapped
+        run: npm i snowcapped
+      - name: Build
+        run: beet -p beet-release.yaml
+      - name: Publish Mod
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          files: build/*.jar
+          game-version-filter: releases
+          version: ${{ VERSION }}
+          version-type: alpha
+          loaders:
+          - fabric
+          - forge
+          - neoforge
+
+          modrinth-id: tpebiQuQ
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          
+          curseforge-id: 1158600
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish Datapack
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          files: build/*.zip
+          game-version-filter: releases
+          loaders:
+          - datapack
+
+          modrinth-id: tpebiQuQ
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish Datapack on Smithed
+        uses: fjogeleit/http-request-action@v1.16.4
+        with:
+          url: https://api.smithed.dev/v2/packs/lavaflow/versions?token=${{ secrets.SMITHED_TOKEN }}&version=${{ VERSION }}
+          method: POST
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{
+            data: {
+              downloads: {
+                datapack: "https://github.com/jacobsjo/lavaflow/releases/download/v${{ VERSION }}/lavaflow_${{ VERSION }}.zip"
+              },
+              dependencies: [],
+              name: ${{ VERSION }},
+              supports: ["1.21.4"]
+            }
+          }'
