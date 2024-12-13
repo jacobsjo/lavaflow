@@ -41,10 +41,7 @@ def modded(ctx: Context, opts: ModdedOptions):
     filename_template = opts.name if opts.name is not None else ('{{project_id}}_{{project_version}}_mod' if ctx.project_version != '' else '{{project_id}}_mod')
 
     with ZipFile(f'{ctx.output_directory}/{ctx.template.render_string(filename_template)}.jar', mode="w") as z:
-        ctx.assets.dump(z)
-        with warnings.catch_warnings():
-            warnings.simplefilter("ignore")
-            ctx.data.dump(z)
+        ctx.data.dump(z)
         for path, item in extra.items():
             item.dump(z, path)
 

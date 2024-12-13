@@ -1,17 +1,17 @@
 id: lavaflow
 name: Lavaflow
+minecraft: 1.21
 version: 0.1.0
 description: Overhauled Nether with lava rivers and more
 author: jacobsjo
 require:
 - beet.contrib.copy_files
 data_pack:
-  pack_format: 61
   load:
   - "."
   - 'public'
   name: '{{project_id}}'
-  
+
 pipeline:
 - src.snowcapped
 - src.handleBiomes
