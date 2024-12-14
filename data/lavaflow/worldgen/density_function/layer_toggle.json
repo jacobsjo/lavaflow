@@ -20,12 +20,12 @@
                 "coordinate": "lavaflow:continentalness",
                 "points": [
                     {
-                        "location": -0.28,
+                        "location": -0.25,
                         "derivative": 0,
                         "value": 0
                     },
                     {
-                        "location": -0.25,
+                        "location": -0.24,
                         "derivative": 0,
                         "value": {
                             "coordinate": "lavaflow:erosion",
@@ -42,12 +42,12 @@
                                         "coordinate": "lavaflow:ridge_abs",
                                         "points": [
                                             {
-                                                "location": 0.11,
+                                                "location": 0.1,
                                                 "derivative": 0,
-                                                "value": -1
+                                                "value": -0.1
                                             },
                                             {
-                                                "location": 0.15,
+                                                "location": 0.12,
                                                 "derivative": 0,
                                                 "value": 0
                                             }
@@ -64,12 +64,45 @@
                             "coordinate": "lavaflow:erosion",
                             "points": [
                                 {
-                                    "location": 0.12,
+                                    "location": 0.2,
                                     "derivative": 0,
                                     "value": 0
                                 },
                                 {
-                                    "location": 0.13,
+                                    "location": 0.21,
+                                    "derivative": 0,
+                                    "value": {
+                                        "coordinate": "lavaflow:ridge_abs",
+                                        "points": [
+                                            {
+                                                "location": 0.1,
+                                                "derivative": 0,
+                                                "value": -0.1
+                                            },
+                                            {
+                                                "location": 0.12,
+                                                "derivative": 0,
+                                                "value": 0
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "location": -0.1,
+                        "derivative": 0,
+                        "value": {
+                            "coordinate": "lavaflow:erosion",
+                            "points": [
+                                {
+                                    "location": 0.17,
+                                    "derivative": 0,
+                                    "value": 0
+                                },
+                                {
+                                    "location": 0.18,
                                     "derivative": 0,
                                     "value": -1
                                 }
