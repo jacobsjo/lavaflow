@@ -24,7 +24,7 @@
         "erosion": "lavaflow:erosion",
         "ridges": "lavaflow:ridge",
         "temperature": "lavaflow:temperature",
-        "vegetation": "lavaflow:humdity",
+        "vegetation": "lavaflow:humidity",
         "depth": "lavaflow:depth",
         "fluid_level_floodedness": "lavaflow:aquifer",
         "barrier": "lavaflow:barrier",

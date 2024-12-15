@@ -1,9 +1,0 @@
-{
-    "type": "add",
-    "argument1": 144,
-    "argument2": {
-        "type": "mul",
-        "argument1": 128,
-        "argument2": "lavaflow:offset"
-    }
-}
