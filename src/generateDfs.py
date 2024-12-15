@@ -47,8 +47,8 @@ def _offset(
     ).register(ctx, 'lavaflow:offset/beach')
 
     offset_valley = df.spline(df.Spline(ridge_abs)
-        .add(0.05, -0.93)
-        .add(0.07, -0.83)
+        .add(0.03, -0.92)
+        .add(0.1, -0.83)
         .add(0.4, -0.83)
         .add(0.5, -0.5)
     ).register(ctx, 'lavaflow:offset/valley')
@@ -118,7 +118,7 @@ def _caves(
     cave_height = df.noise('lavaflow:cave_height', 0.7, 0) * 0.18 - 0.734
     y_density = df.square(cave_height + depth)
     xz_density = df.square(df.noise('lavaflow:cave_ridge', 0.7, 0) * 0.3)
-    return y_density + xz_density - 0.002
+    return (y_density + xz_density - 0.002) * 100
 
 
 def _layer(
