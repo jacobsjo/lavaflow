@@ -47,7 +47,7 @@ def _offset(
     ).register(ctx, 'lavaflow:offset/beach')
 
     offset_valley = df.spline(df.Spline(ridge_abs)
-        .add(0.03, -0.92)
+        .add(0.03, -0.93)
         .add(0.1, -0.83)
         .add(0.4, -0.83)
         .add(0.5, -0.5)
