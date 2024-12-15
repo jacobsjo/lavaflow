@@ -61,7 +61,7 @@ def _offset(
     offset_plateau = df.spline(df.Spline(ridge_abs)
         .add(0.05, -0.64)
         .add(0.1, -0.5)
-    ).register(ctx, 'lavaflow:offset/canyon')
+    ).register(ctx, 'lavaflow:offset/plateau')
 
     offset_middle = df.spline(df.Spline(erosion)
         .add(-0.3, offset_valley)
