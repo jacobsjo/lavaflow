@@ -3,6 +3,7 @@ output: build
 pipeline:
 - beet.contrib.minify_json
 - src.modded
+- src.githubOutput
 
 data_pack:
   zipped: true

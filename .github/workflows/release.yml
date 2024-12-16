@@ -3,6 +3,19 @@ on:
   release:
     types:
       - published
+  workflow-dispatch:
+    inputs:
+      publishMod:
+        description: Publish Mod version on modrinth, curseForge, gitHub
+        type: boolean
+      publishDatapack:
+        description: Publish Datapack version on modrinth
+        type: boolean
+      publishOnSmithed:
+        description: Add version to smithed
+        type: boolean
+
+      
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +24,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Get version
-        id: get_version
-        uses: jannemattila/get-version-from-tag@v4
       - name: Install beet
         run: pip install beet
       - name: Install snowcapped
         run: npm i snowcapped
       - name: Build
+        id: build
         run: beet -p beet-release.yaml
       - name: Publish Mod
+        if: ${{ inputs.publishMod }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           files: build/*.jar
           game-version-filter: releases
-          version: ${{ steps.get_version.outputs.version }}
+          version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: |
             fabric
@@ -39,11 +51,12 @@ jobs:
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish Datapack
+        if: ${{ inputs.publishDatapack }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           files: build/*.zip
           game-version-filter: releases
-          version: ${{ steps.get_version.outputs.version }}
+          version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: datapack
 
@@ -52,18 +65,19 @@ jobs:
           
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish Datapack on Smithed
+        if: ${{ inputs.publishOnSmithed }}
         uses: fjogeleit/http-request-action@v1.16.4
         with:
-          url: https://api.smithed.dev/v2/packs/lavaflow/versions?version=${{ steps.get_version.outputs.version }}&token=${{ secrets.SMITHED_TOKEN }}
+          url: https://api.smithed.dev/v2/packs/lavaflow/versions?version=${{ steps.build.outputs.version }}&token=${{ secrets.SMITHED_TOKEN }}
           method: POST
           customHeaders: '{"Content-Type": "application/json"}'
           data: '{
             "data": {
               "downloads": {
-                "datapack": "https://github.com/jacobsjo/lavaflow/releases/download/${{ github.event.release.tag_name }}/lavaflow_${{ steps.get_version.outputs.version }}.zip"
+                "datapack": "https://github.com/jacobsjo/lavaflow/releases/download/v${{ steps.build.outputs.version }}/lavaflow_${{ steps.build.outputs.version }}.zip"
               },
               "dependencies": [],
-              "name": "${{ steps.get_version.outputs.version }}",
+              "name": "${{ steps.build.outputs.version }}",
               "supports": ["1.21.4"]
             }
           }'
