@@ -1,9 +1,10 @@
 {
     "values": [
+        "lavaflow:basalt_pillar_with_disk",
         "#lavaflow:vegetal_decoration/base_lower",
+        "lavaflow:fossil",
         "lavaflow:ghost_forest_vegetation",
-        "minecraft:brown_mushroom_nether",
-        "minecraft:red_mushroom_nether",
+        "#lavaflow:mushrooms",
         "lavaflow:ghost_trees",
         "lavaflow:pale_hanging_moss"
     ]

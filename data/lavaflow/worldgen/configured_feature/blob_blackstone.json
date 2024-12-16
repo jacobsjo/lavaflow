@@ -9,7 +9,7 @@
             "Name": "minecraft:blackstone"
           },
           "target": {
-            "tag": "minecraft:base_stone_nether",
+            "tag": "lavaflow:blob_replaceable",
             "predicate_type": "minecraft:tag_match"
           }
         }

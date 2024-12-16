@@ -2,7 +2,6 @@
     "values": [
         "minecraft:delta",
         "minecraft:small_basalt_columns",
-        "minecraft:large_basalt_columns",
-        "lavaflow:basalt_pillar"
+        "minecraft:large_basalt_columns"
     ]
 }
