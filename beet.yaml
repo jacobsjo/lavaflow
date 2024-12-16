@@ -1,7 +1,7 @@
 id: lavaflow
 name: Lavaflow
 minecraft: 1.21
-version: 0.1.0
+version: 0.2.0
 description: Overhauled Nether with lava rivers and more
 author: jacobsjo
 require:
