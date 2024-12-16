@@ -1,7 +1,6 @@
 {
     "values": [
         "#lavaflow:vegetal_decoration/base_lower",
-        "#lavaflow:mushrooms",
-        "lavaflow:basalt_pillar"
+        "#lavaflow:mushrooms"
     ]
 }

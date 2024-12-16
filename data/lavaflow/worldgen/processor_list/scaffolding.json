@@ -9,7 +9,7 @@
                 },
                 "location_predicate": {
                     "predicate_type": "minecraft:tag_match",
-                    "tag": "lavaflow:ground"
+                    "tag": "lavaflow:solid_for_structures"
                 },
                 "output_state": {
                     "Name": "minecraft:polished_blackstone"

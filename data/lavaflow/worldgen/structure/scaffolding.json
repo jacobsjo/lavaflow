@@ -6,7 +6,7 @@
     "start_height": {
         "absolute": 37
     },
-    "step": "strongholds",
+    "step": "fluid_springs",
     "use_expansion_hack": false,
     "terrain_adaptation": "none",
     "liquid_settings": "ignore_waterlogging",

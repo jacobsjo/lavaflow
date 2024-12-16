@@ -19,10 +19,10 @@ def beet_default(ctx: Context):
     height_variation = df.noise('lavaflow:variation', 1, 0).cache_2d().register(ctx, 'lavaflow:height_variation')
     offset = _offset(ctx, ridge_abs, continentalness, erosion).register(ctx, 'lavaflow:offset')
 
-    layer = _layer(depth, ridge_abs, continentalness, erosion).register(ctx, 'lavaflow:layer')
+    layer = _layer(ctx, depth, ridge_abs, continentalness, erosion).register(ctx, 'lavaflow:layer')
     upper_layer = _upper_layer(depth).register(ctx, 'lavaflow:upper_layer')
-    pillar = _pillar(depth, offset, ridge_abs, continentalness, erosion).register(ctx, 'lavaflow:pillar')
-    caves = _caves(depth).register(ctx, 'lavaflow:caves')
+    pillar = _pillar(ctx, depth, offset, ridge_abs, continentalness, erosion).register(ctx, 'lavaflow:pillar')
+    caves = _caves(ctx, depth).register(ctx, 'lavaflow:caves')
 
     ceiling = -depth + (height_variation * 0.095 + 0.12)
     floor = depth + offset + 0.05 * height_variation
@@ -79,6 +79,7 @@ def _offset(
 
 
 def _pillar(
+    ctx: Context,
     depth: df.DensityFunction,
     offset: df.DensityFunction,
     ridge_abs: df.DensityFunction,
@@ -108,20 +109,25 @@ def _pillar(
             .add(-0.2, -0.4)
             .add(0, -0.2))
     )
-    thickness = (base_thickness + toggle).cache_2d().interpolated()
+    thickness_variation = (df.noise('lavaflow:pillar_thickness', 1, 0) * 0.5).clamp(-0.1, 0.1).register(ctx, 'lavaflow:pillar_thickness_variation')
+
+    thickness = (base_thickness + toggle + thickness_variation).cache_2d().interpolated()
     return thickness + df.noise('lavaflow:pillar', 5.0, 0.2)
 
 
 def _caves(
+    ctx: Context,
     depth: df.DensityFunction,
 ):
     cave_height = df.noise('lavaflow:cave_height', 0.7, 0) * 0.18 - 0.734
     y_density = df.square(cave_height + depth)
     xz_density = df.square(df.noise('lavaflow:cave_ridge', 0.7, 0) * 0.3)
-    return (y_density + xz_density - 0.002) * 100
+    cave_size = (df.noise('lavaflow:cave_size', 1, 0) * 0.15 + 0.25).register(ctx, 'lavaflow:cave_size')
+    return (y_density + xz_density) * 100 - cave_size
 
 
 def _layer(
+    ctx: Context,
     depth: df.DensityFunction,
     ridge_abs: df.DensityFunction,
     continentalness: df.DensityFunction,
@@ -149,9 +155,15 @@ def _layer(
 
     toggle = beardifier_remove(toggle_terrain, -1, 0)
 
+    gap_size = df.spline(df.Spline(df.noise('lavaflow:layer_gap_size', 1.8, 0))
+        .add(-1, 0.025)
+        .add(0, 0.03, 0.02)
+        .add(1, 0.045)
+    ).register(ctx, 'lavaflow:layer_gap_size')
+
     layer_height = df.noise('lavaflow:layer_height', 1, 0) * 0.05 - 0.55
     y_density = abs(layer_height + depth)
-    xz_density = abs(df.noise('lavaflow:layer_gaps', 1, 0)) * 0.1 - 0.03
+    xz_density = abs(df.noise('lavaflow:layer_gaps', 1, 0)) * 0.1 - gap_size
     return -(y_density + xz_density) + toggle
 
 
