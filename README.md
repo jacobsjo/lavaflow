@@ -1,5 +1,10 @@
 Lavaflow
 ========
+[![Smithed Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.smithed.dev%2Fv2%2Fpacks%2Flavaflow%2Fmeta&query=stats.downloads.total&style=flat-square&label=Smithed)](https://smithed.net/packs/lavaflow)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/lavaflow?style=flat-square&logo=modrinth&label=modrinth)](https://modrinth.com/datapack/lavaflow)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1158600?style=flat-square&logo=curseforge&label=CurseForge)](https://www.curseforge.com/minecraft/mc-mods/lavaflow)
+[![Buy me a coffee](https://shields.io/badge/ko--fi-Buy_me_a_coffee-ff5f5f?logo=ko-fi&style=flat-square)](https://ko-fi.com/jacobsjo)
+[![GitHub Issues](https://img.shields.io/github/issues/jacobsjo/lavaflow?style=flat-square&logo=github)](https://github.com/jacobsjo/lavaflow/issues)
 
 **This datapack is still in beta. Future (and frequent) changes that cause chunk borders in existing worlds are likely. Use at your own risk**
 
