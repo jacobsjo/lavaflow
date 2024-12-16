@@ -40,6 +40,7 @@ def modded(ctx: Context, opts: ModdedOptions):
 
     filename_template = opts.name if opts.name is not None else ('{{project_id}}_{{project_version}}_mod' if ctx.project_version != '' else '{{project_id}}_mod')
 
+    ctx.output_directory.mkdir(parents=True, exist_ok=True)
     with ZipFile(f'{ctx.output_directory}/{ctx.template.render_string(filename_template)}.jar', mode="w") as z:
         ctx.data.dump(z)
         for path, item in extra.items():
