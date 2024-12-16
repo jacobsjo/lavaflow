@@ -114,7 +114,7 @@ def quilt(extra: PackExtraContainer, ctx: Context, opts: ModdedOptions):
 def forge(extra: PackExtraContainer, ctx: Context, opts: ModdedOptions, isNeo: bool):
     minecraft_version_string = f'[{opts.min_minecraft_version},{opts.max_minecraft_version})' if opts.min_minecraft_version is not None and opts.max_minecraft_version is not None else ctx.minecraft_version
 
-    extra[f'META-INF/{'neoforge.' if isNeo else ''}mods.toml'] = TomlFile({
+    extra['META-INF/neoforge.mods.toml' if isNeo else 'META-INF/mods.toml'] = TomlFile({
         'modLoader': 'lowcodefml',
         'loaderVersion': '[1,)',
         'license': opts.license,
