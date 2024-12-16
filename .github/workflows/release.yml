@@ -3,7 +3,7 @@ on:
   release:
     types:
       - published
-  workflow-dispatch:
+  workflow_dispatch:
     inputs:
       publishMod:
         description: Publish Mod version on modrinth, curseForge, gitHub
