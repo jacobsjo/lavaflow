@@ -27,11 +27,10 @@ jobs:
           game-version-filter: releases
           version: ${{ steps.get_version.outputs.version }}
           version-type: alpha
-          loaders:
-          - fabric
-          - forge
-          - neoforge
-
+          loaders: |
+            fabric
+            forge
+            neoforge
           modrinth-id: tpebiQuQ
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           
@@ -44,8 +43,7 @@ jobs:
         with:
           files: build/*.zip
           game-version-filter: releases
-          loaders:
-          - datapack
+          loaders: datapack
 
           modrinth-id: tpebiQuQ
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
