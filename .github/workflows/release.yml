@@ -11,10 +11,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Get Version
-        run: |
-          TAG=${{ github.event.release.tag_name }}
-          echo "VERSION=${TAG#v}" >> $GITHUB_ENV
+      - name: Get version
+        id: get_version
+        uses: jannemattila/get-version-from-tag@v4
       - name: Install beet
         run: pip install beet
       - name: Install snowcapped
@@ -26,7 +25,7 @@ jobs:
         with:
           files: build/*.jar
           game-version-filter: releases
-          version: ${{ VERSION }}
+          version: ${{ steps.get_version.outputs.version }}
           version-type: alpha
           loaders:
           - fabric
@@ -55,16 +54,16 @@ jobs:
       - name: Publish Datapack on Smithed
         uses: fjogeleit/http-request-action@v1.16.4
         with:
-          url: https://api.smithed.dev/v2/packs/lavaflow/versions?token=${{ secrets.SMITHED_TOKEN }}&version=${{ VERSION }}
+          url: https://api.smithed.dev/v2/packs/lavaflow/versions?token=${{ secrets.SMITHED_TOKEN }}&version=${{ steps.get_version.outputs.version }}
           method: POST
           customHeaders: '{"Content-Type": "application/json"}'
           data: '{
             data: {
               downloads: {
-                datapack: "https://github.com/jacobsjo/lavaflow/releases/download/v${{ VERSION }}/lavaflow_${{ VERSION }}.zip"
+                datapack: "https://github.com/jacobsjo/lavaflow/releases/download/${{ github.event.release.tag_name }}/lavaflow_${{ steps.get_version.outputs.version }}.zip"
               },
               dependencies: [],
-              name: ${{ VERSION }},
+              name: ${{ steps.get_version.outputs.version }},
               supports: ["1.21.4"]
             }
           }'
