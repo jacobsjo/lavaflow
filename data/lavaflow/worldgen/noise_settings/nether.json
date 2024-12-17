@@ -176,7 +176,8 @@
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
                                                             "minecraft:crimson_forest",
-                                                            "lavaflow:crimson_forest_layer"
+                                                            "lavaflow:crimson_forest_layer",
+                                                            "lavaflow:old_growth_crimson_forest"
                                                         ]
                                                     },
                                                     "then_run": {

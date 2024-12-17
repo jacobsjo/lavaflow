@@ -1,0 +1,12 @@
+{
+    "feature": "minecraft:delta",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 15
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

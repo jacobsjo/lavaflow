@@ -1,8 +1,7 @@
 {
     "values": [
-        "lavaflow:crimson_forest_layer",
-        "lavaflow:warped_forest_layer",
-        "lavaflow:old_growth_warped_forest",
+        "#lavaflow:warped_forest",
+        "#lavaflow:crimson_forest",
         "lavaflow:ghost_forest"
     ]
 }

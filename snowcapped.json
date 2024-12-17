@@ -104,17 +104,17 @@
       "name": "Middle",
       "array": [
         [
-          "minecraft:crimson_forest",
-          "minecraft:crimson_forest",
-          "minecraft:crimson_forest",
+          "biome_m4rrraxl",
+          "biome_m4rrraxl",
+          "biome_m4rrraxl",
           "minecraft:crimson_forest",
           "minecraft:crimson_forest",
           "minecraft:crimson_forest"
         ],
         [
-          "minecraft:crimson_forest",
-          "minecraft:crimson_forest",
-          "minecraft:crimson_forest",
+          "biome_m4rrraxl",
+          "biome_m4rrraxl",
+          "biome_m4rrraxl",
           "minecraft:crimson_forest",
           "minecraft:crimson_forest",
           "minecraft:crimson_forest"
@@ -644,6 +644,11 @@
       "key": "biome_m4aq8xq2",
       "name": "lavaflow:ghost_forest",
       "color": "#b8b7b7"
+    },
+    {
+      "key": "biome_m4rrraxl",
+      "name": "lavaflow:old_growth_crimson_forest",
+      "color": "#ff0000"
     }
   ],
   "targetVersion": "1_19",
