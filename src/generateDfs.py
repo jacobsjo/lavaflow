@@ -32,6 +32,8 @@ def beet_default(ctx: Context):
     barrier = df.range_choice(ridge_abs, 0, 0.06, -2, 0.5).register(ctx, 'lavaflow:barrier')
     aquifer = _aquifer(ridge_abs, continentalness, erosion).register(ctx, 'lavaflow:aquifer')
 
+    snowcapped_surface = (offset * 128 + 144).register(ctx, 'lavaflow:snowcapped_surface')
+
 def beardifier_remove(input: df.DensityFunction, negative = -1, positive = -1):
     return df.range_choice(df.beardifier(), -LARGE, -0.01, negative, df.range_choice(df.beardifier(), 0.01, LARGE, positive, input))
 
