@@ -5,14 +5,14 @@ on:
       - published
   workflow_dispatch:
     inputs:
-      publishMod:
-        description: Publish Mod version on modrinth, curseForge, gitHub
+      skipPublishMod:
+        description: Don't publish Mod version on modrinth, curseForge, gitHub
         type: boolean
-      publishDatapack:
-        description: Publish Datapack version on modrinth
+      skipPublishDatapack:
+        description: Don't publish Datapack version on modrinth
         type: boolean
-      publishOnSmithed:
-        description: Add version to smithed
+      skipPublishOnSmithed:
+        description: Don't add version to smithed
         type: boolean
 
       
@@ -32,7 +32,7 @@ jobs:
         id: build
         run: beet -p beet-release.yaml
       - name: Publish Mod
-        if: ${{ inputs.publishMod }}
+        if: ${{ ! inputs.skipPublishMod }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           files: build/*.jar
@@ -51,7 +51,7 @@ jobs:
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish Datapack
-        if: ${{ inputs.publishDatapack }}
+        if: ${{ ! inputs.skipPublishDatapack }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           files: build/*.zip
@@ -65,7 +65,7 @@ jobs:
           
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish Datapack on Smithed
-        if: ${{ inputs.publishOnSmithed }}
+        if: ${{ ! inputs.skipPublishOnSmithed }}
         uses: fjogeleit/http-request-action@v1.16.4
         with:
           url: https://api.smithed.dev/v2/packs/lavaflow/versions?version=${{ steps.build.outputs.version }}&token=${{ secrets.SMITHED_TOKEN }}
