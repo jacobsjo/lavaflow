@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "start_pool": "nova_structures:piglin_outstation/tower",
+  "max_distance_from_center": 100,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 33
+    },
+    "max_inclusive": {
+      "absolute": 70
+    }
+  },
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:piglin",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "step": "surface_structures",
+  "size": 5,
+  "use_expansion_hack": false,
+  "terrain_adaptation": "beard_box"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "max_distance_from_center": 128,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  },
+  "step": "underground_decoration",
+  "start_height": {
+    "absolute": 32
+  },
+  "start_pool": "nova_structures:donjon/donjon_framework/donjon_center_start",
+  "size": 20,
+  "use_expansion_hack": false
+}

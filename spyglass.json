@@ -2,7 +2,8 @@
   "env": {
     "dependencies": [
       "@vanilla-datapack",
-      "@vanilla-mcdoc"
+      "@vanilla-mcdoc",
+      "file:///home/jochen/Projects/Minecraft/datapacks/external/dnt"
     ],
     "exclude": [
       "build",

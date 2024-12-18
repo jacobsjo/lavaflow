@@ -6,10 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       skipPublishMod:
-        description: Don't publish Mod version on modrinth, curseForge, gitHub
+        description: Don't publish Mod version on modrinth, curseForge, GitHub
         type: boolean
       skipPublishDatapack:
-        description: Don't publish Datapack version on modrinth
+        description: Don't publish Datapack version on modrinth and GitHub
+        type: boolean
+      skipPublishCompatDatapacks:
+        description: Don't publish compatability Datapack version on GitHub
         type: boolean
       skipPublishOnSmithed:
         description: Don't add version to smithed
@@ -37,6 +40,8 @@ jobs:
         with:
           files: build/*.jar
           game-version-filter: releases
+          game-versions: | 
+            1.21.4
           version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: |
@@ -56,6 +61,8 @@ jobs:
         with:
           files: build/*.zip
           game-version-filter: releases
+          game-versions: | 
+            1.21.4
           version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: datapack
@@ -63,6 +70,16 @@ jobs:
           modrinth-id: tpebiQuQ
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish Compat Datapacks on GitHub
+        if: ${{ ! inputs.skipPublishCompatDatapacks }}
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          files: build/compat/*.zip
+          version: ${{ steps.build.outputs.version }}
+          version-type: alpha
+          loaders: datapack
+
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish Datapack on Smithed
         if: ${{ ! inputs.skipPublishOnSmithed }}
