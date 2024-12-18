@@ -11,7 +11,6 @@ pipeline:
     zipped: true
   output: ../../build/compat/
   pipeline:
-  - src.modded
   - beet.contrib.output
   - src.zip
   - beet.contrib.clear
