@@ -1,10 +1,7 @@
 extend: 'beet-base.yaml'
 id: lavaflow
 name: Lavaflow
-minecraft: 1.21
-version: 0.3.0
 description: Overhauled Nether with lava rivers and more
-author: jacobsjo
 require:
 - beet.contrib.copy_files
 data_pack:
