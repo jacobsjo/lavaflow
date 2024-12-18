@@ -75,7 +75,7 @@ jobs:
         if: ${{ ! inputs.skipPublishCompatDatapacks }}
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          files: build/compat/*.zip
+          files: build/compat/*
           version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: datapack
