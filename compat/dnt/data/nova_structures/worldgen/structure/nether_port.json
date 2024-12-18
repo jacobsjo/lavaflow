@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "lavaflow:ocean",
+  "biomes": "#lavaflow:ocean",
   "max_distance_from_center": 100,
   "spawn_overrides": {
     "monster": {

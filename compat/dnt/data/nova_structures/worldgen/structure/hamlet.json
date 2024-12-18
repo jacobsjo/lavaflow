@@ -1,10 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#lavaflow:plateau",
-  "start_pool": "nova_structures:piglin_camp/campfire",
-  "max_distance_from_center": 20,
+  "biomes": "#lavaflow:upper",
+  "start_pool": "nova_structures:hamlet/hamlet_center",
+  "max_distance_from_center": 100,
   "start_height": {
-    "absolute": 76
+    "absolute": 74
   },
   "spawn_overrides": {},
   "step": "surface_structures",

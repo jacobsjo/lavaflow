@@ -1,16 +1,10 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "biomes": "#lavaflow:valley",
   "start_pool": "nova_structures:piglin_outstation/tower",
   "max_distance_from_center": 100,
   "start_height": {
-    "type": "minecraft:uniform",
-    "min_inclusive": {
-      "absolute": 33
-    },
-    "max_inclusive": {
-      "absolute": 70
-    }
+    "absolute": 37
   },
   "spawn_overrides": {
     "monster": {

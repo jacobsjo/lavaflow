@@ -5,3 +5,5 @@ description: Compatability layer betwen Lavaflow and Dungeons and Taverns
 data_pack:
   load:
   - "."
+  name: dnt
+output: ../../build/compat

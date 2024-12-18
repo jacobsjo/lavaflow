@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "biomes": "#lavaflow:ocean",
   "max_distance_from_center": 128,
   "spawn_overrides": {
     "monster": {
