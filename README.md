@@ -5,12 +5,15 @@ Lavaflow
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1158600?style=flat-square&logo=curseforge&label=CurseForge)](https://www.curseforge.com/minecraft/mc-mods/lavaflow)
 [![Buy me a coffee](https://shields.io/badge/ko--fi-Buy_me_a_coffee-ff5f5f?logo=ko-fi&style=flat-square)](https://ko-fi.com/jacobsjo)
 [![GitHub Issues](https://img.shields.io/github/issues/jacobsjo/lavaflow?style=flat-square&logo=github)](https://github.com/jacobsjo/lavaflow/issues)
+[![Datapack Map](https://img.shields.io/badge/Datapack%20Map-Open-%23004d72?style=flat-square)](https://map.jacobsjo.eu/?datapacks=modrinth:lavaflow&dimension=minecraft:the_nether)
 
 **This datapack is still in beta. Future (and frequent) changes that cause chunk borders in existing worlds are likely. Use at your own risk**
 
 Lavaflow completely overhauls the nether.
 Instead of the random noise of the vanilla nether, Lavaflow features specifically crafted terrain, like you are used to from the overworld - but way more 3d.
 Biomes are placed not at random but in places matching the terrain.
+
+You can view a map of the biome distribution, terrain, and structure locations on [map.jacobsjo.eu](https://map.jacobsjo.eu/?datapacks=modrinth:lavaflow&dimension=minecraft:the_nether).
 
 ![A view down to a nether fortress. In the forground is a lava river at higher elevations.](https://raw.githubusercontent.com/jacobsjo/lavaflow/main/gallery/02_lavafall_from_top.jpg)
 
