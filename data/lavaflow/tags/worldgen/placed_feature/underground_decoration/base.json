@@ -7,6 +7,7 @@
         "lavaflow:ore_gold",
         "lavaflow:ore_gold_lower",
         "minecraft:ore_quartz_nether",
-        "lavaflow:ore_debris"
+        "lavaflow:ore_debris_large",
+        "lavaflow:ore_debris_small"
     ]
 }

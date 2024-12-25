@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "discard_chance_on_air_exposure": 1.0,
+        "size": 15,
+        "targets": [
+            {
+                "state": {
+                    "Name": "minecraft:tuff"
+                },
+                "target": {
+                    "block": "minecraft:smooth_basalt",
+                    "probability": 0.9,
+                    "predicate_type": "minecraft:random_block_match"
+                }
+            },
+            {
+                "state": {
+                    "Name": "minecraft:tuff"
+                },
+                "target": {
+                    "block": "minecraft:blackstone",
+                    "probability": 0.9,
+                    "predicate_type": "minecraft:random_block_match"
+                }
+            },
+            {
+                "state": {
+                    "Name": "minecraft:ancient_debris"
+                },
+                "target": {
+                    "block": "minecraft:smooth_basalt",
+                    "predicate_type": "minecraft:block_match"
+                }
+            },
+            {
+                "state": {
+                    "Name": "minecraft:ancient_debris"
+                },
+                "target": {
+                    "block": "minecraft:blackstone",
+                    "predicate_type": "minecraft:block_match"
+                }
+            }
+        ]
+    }
+} 

@@ -1,10 +1,10 @@
 {
-    "feature": "minecraft:ore_ancient_debris_large",
+    "feature": "lavaflow:ore_debris_in_tuff_small",
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 16
-        },
+            "count": 20
+        }, 
         {
             "type": "minecraft:in_square"
         },
@@ -27,8 +27,8 @@
             "type": "minecraft:block_predicate_filter",
             "predicate": {
                 "type": "minecraft:matching_blocks",
-                "blocks": "#lavaflow:ground"
+                "blocks": "#minecraft:base_stone_nether"
             }
-        }        
+        }
     ]
 }

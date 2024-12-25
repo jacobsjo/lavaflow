@@ -1,22 +1,22 @@
 {
-    "feature": "lavaflow:ore_debris_in_tuff_small",
+    "feature": "lavaflow:ore_debris_in_tuff",
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 20
-        }, 
+            "count": 6
+        },
         {
             "type": "minecraft:in_square"
         },
         {
             "type": "minecraft:height_range",
             "height": {
-                "type": "minecraft:uniform",
-                "max_inclusive": {
-                    "absolute": 70
-                },
+                "type": "minecraft:trapezoid",
                 "min_inclusive": {
-                    "absolute": 28
+                    "absolute": 8
+                },
+                "max_inclusive": {
+                    "absolute": 24
                 }
             }
         },
@@ -27,7 +27,7 @@
             "type": "minecraft:block_predicate_filter",
             "predicate": {
                 "type": "minecraft:matching_blocks",
-                "blocks": "#minecraft:base_stone_nether"
+                "blocks": "#lavaflow:ground"
             }
         }
     ]

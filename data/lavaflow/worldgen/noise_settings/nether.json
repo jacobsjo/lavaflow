@@ -387,27 +387,38 @@
             {
                 "type": "minecraft:condition",
                 "if_true": {
-                    "type": "minecraft:not",
-                    "invert": {
-                        "type": "minecraft:biome",
-                        "biome_is": [
-                            "lavaflow:caves"
-                        ]
-                    }
+                    "type": "minecraft:y_above",
+                    "anchor": {
+                        "above_bottom": 20
+                    },
+                    "add_stone_depth": false,
+                    "surface_depth_multiplier": 0
                 },
                 "then_run": {
                     "type": "minecraft:condition",
                     "if_true": {
-                        "type": "minecraft:stone_depth",
-                        "surface_type": "ceiling",
-                        "add_surface_depth": true,
-                        "offset": 0,
-                        "secondary_depth_range": 20
+                        "type": "minecraft:not",
+                        "invert": {
+                            "type": "minecraft:biome",
+                            "biome_is": [
+                                "lavaflow:caves"
+                            ]
+                        }
                     },
                     "then_run": {
-                        "type": "minecraft:block",
-                        "result_state": {
-                            "Name": "minecraft:netherrack"
+                        "type": "minecraft:condition",
+                        "if_true": {
+                            "type": "minecraft:stone_depth",
+                            "surface_type": "ceiling",
+                            "add_surface_depth": true,
+                            "offset": 0,
+                            "secondary_depth_range": 20
+                        },
+                        "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                                "Name": "minecraft:netherrack"
+                            }
                         }
                     }
                 }
