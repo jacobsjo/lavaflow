@@ -1,5 +1,5 @@
 {
-    "ambient_light": 0.05,
+    "ambient_light": 0.1,
     "bed_works": false,
     "coordinate_scale": 8.0,
     "effects": "minecraft:the_nether",
