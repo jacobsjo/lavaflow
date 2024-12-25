@@ -14,6 +14,7 @@ pipeline:
 - src.snowcapped
 - src.handleBiomes
 - src.generateDfs
+- src.generateSurfaceRules
 
 output: build
 

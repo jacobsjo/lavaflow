@@ -1,6 +1,6 @@
 from typing import List, Dict
 from beet import Context, JsonFile, PluginOptions, configurable, PackExtraContainer
-from src.tomlFile import TomlFile
+from src.lib.tomlFile import TomlFile
 from zipfile import ZipFile
 import warnings
 
