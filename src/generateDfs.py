@@ -25,9 +25,9 @@ def beet_default(ctx: Context):
     caves = _caves(ctx, depth).register(ctx, 'lavaflow:caves')
 
     ceiling = -depth + (height_variation * 0.095 + 0.12)
-    floor = (depth + offset + 0.05 * height_variation).register(ctx, 'lavaflow:floor')
+    floor = (depth + offset + 0.05 * height_variation).cache_once().register(ctx, 'lavaflow:floor')
     base_terrain = df.min(df.max(ceiling, floor, layer, upper_layer), caves).cache_once().interpolated()
-    near_floor_beardifier = df.range_choice(floor, -0.025, 0.05, df.beardifier(), df.range_choice(df.ref('minecraft:y'), 0, 38, df.beardifier(), 0))
+    near_floor_beardifier = df.range_choice(floor.interpolated(), -0.025, 0.05, df.beardifier(), df.range_choice(df.ref('minecraft:y'), 0, 38, df.beardifier(), 0))
     final_density = (df.max(base_terrain, pillar) - df.beardifier() + near_floor_beardifier).register(ctx, 'lavaflow:final_density')
 
     barrier = df.range_choice(ridge_abs, 0, 0.06, -2, 0.5).register(ctx, 'lavaflow:barrier')
@@ -78,7 +78,7 @@ def _offset(
         .add(-0.2, offset_beach)
         .add(-0.19, offset_beach)
         .add(-0.16, offset_middle)
-    )
+    ).cache_2d().flat_cache()
 
 
 def _pillar(
