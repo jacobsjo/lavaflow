@@ -6,7 +6,7 @@
     "start_height": {
         "absolute": 32
     },
-    "step": "fluid_springs",
+    "step": "underground_ores",
     "use_expansion_hack": false,
     "terrain_adaptation": "beard_thin",
     "liquid_settings": "ignore_waterlogging",
