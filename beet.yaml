@@ -1,28 +1,4 @@
 extend: 'beet-base.yaml'
-id: lavaflow
-name: Lavaflow
-description: Overhauled Nether with lava rivers and more
-require:
-- beet.contrib.copy_files
-data_pack:
-  load:
-  - "."
-  - 'public'
-  name: '{{project_id}}'
-
-pipeline:
-- src.snowcapped
-- src.handleBiomes
-- src.generateDfs
-- src.generateSurfaceRules
-
 output: build
-
-meta:
-  copy_files:
-    data_pack:
-      README.md: public/README.md
-      data/c/structure_icons.json: data/c/structure_icons.json
-      assets/lavaflow/lang: assets/lavaflow/lang
-      LICENSE.txt: LICENSE.txt
-      AGPL.txt: AGPL.txt
+require:
+- src.livelyreload

@@ -1,4 +1,4 @@
-extend: 'beet.yaml'
+extend: 'beet-base.yaml'
 output: build
 pipeline:
 - beet.contrib.minify_json

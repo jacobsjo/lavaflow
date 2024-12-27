@@ -1,21 +1,28 @@
-minecraft: 1.21
-version: 0.3.2
-author: jacobsjo
+extend: 'beet-config.yaml'
+id: lavaflow
+name: Lavaflow
+description: Overhauled Nether with lava rivers and more
+require:
+- beet.contrib.copy_files
+data_pack:
+  load:
+  - "."
+  - 'public'
+  name: '{{project_id}}'
+
+pipeline:
+- src.snowcapped
+- src.handleBiomes
+- src.generateDfs
+- src.generateSurfaceRules
+
+output: build
+
 meta:
-  modded:
-    fabric: true
-    quilt: false
-    neoforge: true
-    mcforge: true
-    name: '{{project_id}}_{{project_version}}'
-    
-    group: eu.jacobsjo
-    min_minecraft_version: 1.21.4
-    max_minecraft_version: 1.21.5
-    license: AGPL-3.0-or-later
-    contact:
-      homepage: https://modrinth.com/datapack/lavaflow
-      issues: https://github.com/jacobsjo/lavaflow/issues
-  zip:
-    name: '{{project_id}}_{{project_version}}'
-    
+  copy_files:
+    data_pack:
+      README.md: public/README.md
+      data/c/structure_icons.json: data/c/structure_icons.json
+      assets/lavaflow/lang: assets/lavaflow/lang
+      LICENSE.txt: LICENSE.txt
+      AGPL.txt: AGPL.txt
