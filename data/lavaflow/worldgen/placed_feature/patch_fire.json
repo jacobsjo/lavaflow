@@ -1,5 +1,5 @@
 {
-    "feature": "minecraft:patch_fire",
+    "feature": "lavaflow:patch_fire",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",

@@ -1,0 +1,14 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 5368317,
+      "separation": 2,
+      "spacing": 8
+    },
+    "structures": [
+      {
+        "structure": "lavaflow:strider_staples",
+        "weight": 1
+      }
+    ]
+  }

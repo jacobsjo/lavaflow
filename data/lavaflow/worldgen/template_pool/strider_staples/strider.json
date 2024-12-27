@@ -1,0 +1,38 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/strider/simple",
+                "processors": "minecraft:empty",
+                "projection": "rigid"                
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/strider/saddle",
+                "processors": "minecraft:empty",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/strider/with_baby",
+                "processors": "minecraft:empty",
+                "projection": "rigid"                
+            },
+            "weight": 2
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

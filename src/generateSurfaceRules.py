@@ -10,8 +10,11 @@ def beet_default(ctx: Context):
 
     soul_sand_valley_selection = block('minecraft:soul_sand').when(noise('minecraft:nether_state_selector', 0, 10000))\
         .otherwise(block('minecraft:soul_soil'))
-    nether_wastes_selection = block('minecraft:orange_terracotta').when(noise('minecraft:nether_state_selector', -0.6, -0.25))\
-        .otherwise(block('minecraft:red_terracotta').when(noise('minecraft:nether_state_selector', 0.2, 10000)))
+    nether_wastes_selection = block('minecraft:red_terracotta').when(noise('minecraft:nether_state_selector', 0.25, 10000))\
+        .otherwise(block('minecraft:red_sand').when(top_block('ceiling').invert())\
+            .otherwise(block('minecraft:smooth_red_sandstone'))
+            .when(noise('minecraft:nether_state_selector', -0.25, 0.25))
+        )
 
     top = soul_sand_valley_selection.when(biome(['minecraft:soul_sand_valley', 'lavaflow:soul_sand_valley_river']))\
         .otherwise(block('minecraft:gravel').when(biome(['lavaflow:gravel_beach'])).when(above_y(absolute(38)).invert()))\

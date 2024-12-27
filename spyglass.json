@@ -6,6 +6,7 @@
       "file:///home/jochen/Projects/Minecraft/datapacks/external/dnt"
     ],
     "exclude": [
+      "@gitignore",
       "build",
       ".beet_cache"
     ]

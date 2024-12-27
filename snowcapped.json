@@ -3,7 +3,8 @@
   "continentalnesses": [
     -1.2,
     -0.23500000000000001,
-    -0.16,
+    -0.185,
+    -0.15,
     1
   ],
   "erosions": [
@@ -306,6 +307,12 @@
           "unassigned",
           "unassigned",
           "unassigned"
+        ],
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
         ]
       ]
     },
@@ -318,6 +325,12 @@
           "layout_ly0pffrm",
           "layout_ly0pffrm",
           "layout_ly0pffrm"
+        ],
+        [
+          "biome_ly9zucfa",
+          "biome_ly06s0g3",
+          "biome_ly06s0g3",
+          "biome_ly06s0g3"
         ],
         [
           "biome_ly9zucfa",
@@ -354,6 +367,12 @@
           "layout_lyacexzw",
           "biome_ly06s0g3",
           "biome_ly06s0g3"
+        ],
+        [
+          "layout_lyacexzw",
+          "layout_lyacexzw",
+          "biome_ly06s0g3",
+          "biome_ly06s0g3"
         ]
       ]
     },
@@ -372,6 +391,12 @@
           "layout_ly0pffrm",
           "layout_ly0pffrm",
           "layout_ly0pffrm"
+        ],
+        [
+          "layout_ly1n5ag9",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu"
         ],
         [
           "layout_ly1n5ag9",
@@ -402,6 +427,12 @@
           "layout_ly07nrbu",
           "layout_ly07nrbu",
           "layout_ly07nrbu"
+        ],
+        [
+          "layout_lyacexzw",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu"
         ]
       ]
     },
@@ -420,6 +451,12 @@
           "layout_ly0pffrm",
           "layout_ly0pffrm",
           "layout_ly0pffrm"
+        ],
+        [
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu"
         ],
         [
           "biome_ly0cmo72",
@@ -444,6 +481,12 @@
           "layout_ly0pffrm",
           "layout_ly0pffrm",
           "layout_ly0pffrm"
+        ],
+        [
+          "layout_ly1n5ag9",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu"
         ],
         [
           "layout_ly1n5ag9",
@@ -474,6 +517,12 @@
           "layout_ly1gqqkd",
           "layout_ly1gqqkd",
           "layout_lyaksz57"
+        ],
+        [
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_ly1gqqkd",
+          "layout_lyaksz57"
         ]
       ]
     },
@@ -492,6 +541,12 @@
           "layout_lyacexzw",
           "layout_lyacexzw",
           "layout_lyacexzw"
+        ],
+        [
+          "layout_lyacexzw",
+          "layout_lyacexzw",
+          "layout_lyacexzw",
+          "layout_ly07nrbu"
         ],
         [
           "layout_lyacexzw",
@@ -522,6 +577,12 @@
           "layout_ly07nrbu",
           "layout_ly07nrbu",
           "layout_ly07nrbu"
+        ],
+        [
+          "layout_ly1n5ag9",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu"
         ]
       ]
     },
@@ -529,6 +590,12 @@
       "key": "layout_lya5tctc",
       "name": "River (low)",
       "array": [
+        [
+          "layout_ly066f97",
+          "layout_ly066f97",
+          "layout_ly066f97",
+          "layout_ly066f97"
+        ],
         [
           "layout_ly066f97",
           "layout_ly066f97",
@@ -564,6 +631,12 @@
           "layout_lyacexzw",
           "layout_lyacexzw",
           "layout_lyacexzw"
+        ],
+        [
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu",
+          "layout_ly07nrbu"
         ],
         [
           "layout_ly07nrbu",

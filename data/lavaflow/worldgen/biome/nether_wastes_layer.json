@@ -9,7 +9,7 @@
         [],
         "#lavaflow:underground_decoration/base",
         [],
-        "#lavaflow:vegetal_decoration/base_upper"
+        "#lavaflow:vegetal_decoration/nether_wastes"
     ],
     "carvers": "#lavaflow:caves",
     "downfall": 0.0,
@@ -19,7 +19,7 @@
             "tick_chance": 0.0111
         },
         "ambient_sound": "minecraft:ambient.nether_wastes.loop",
-        "fog_color": 3344392,
+        "fog_color": 3873793,
         "mood_sound": {
             "block_search_extent": 8,
             "offset": 2.0,

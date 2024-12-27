@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "decor_state": {
+      "Name": "minecraft:shroomlight"
+    },
+    "hat_state": {
+      "Name": "minecraft:warped_wart_block"
+    },
+    "planted": false,
+    "replaceable_blocks": {
+      "type": "minecraft:true"
+    },
+    "stem_state": {
+      "Name": "minecraft:warped_stem",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "valid_base_block": {
+      "Name": "minecraft:warped_stem"
+    }
+  }
+}

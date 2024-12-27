@@ -1,0 +1,59 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/extensions/leash_1",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/extensions/leash_2",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/extensions/leash_3",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/extensions/leash_4",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/extensions/pit_bottom",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/extensions/warped_bottom",
+                "processors": "minecraft:empty",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

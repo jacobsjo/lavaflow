@@ -1,0 +1,50 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/start/lava",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/start/leash",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/start/pens",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/start/pit",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "lavaflow:strider_staples/start/warped",
+                "processors": "lavaflow:strider_staples",
+                "projection": "rigid"                
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

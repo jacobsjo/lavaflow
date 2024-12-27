@@ -1,0 +1,16 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:feature_pool_element",
+                "feature": {
+                    "feature": "lavaflow:warped_fungus_strider_staple",
+                    "placement": []
+                },
+                "projection": "rigid"                
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty"
+}

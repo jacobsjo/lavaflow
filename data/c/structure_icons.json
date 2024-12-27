@@ -13,5 +13,8 @@
     },
     "lavaflow:scaffolding": {
         "item": "minecraft:ladder"
+    },
+    "lavaflow:strider_staples": {
+        "item": "minecraft:strider_spawn_egg"
     }
 }

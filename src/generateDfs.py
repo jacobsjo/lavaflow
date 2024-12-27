@@ -27,7 +27,7 @@ def beet_default(ctx: Context):
     ceiling = -depth + (height_variation * 0.095 + 0.12)
     floor = (depth + offset + 0.05 * height_variation).register(ctx, 'lavaflow:floor')
     base_terrain = df.min(df.max(ceiling, floor, layer, upper_layer), caves).cache_once().interpolated()
-    near_floor_beardifier = df.range_choice(floor, -0.025, 0.05, df.beardifier(), 0)
+    near_floor_beardifier = df.range_choice(floor, -0.025, 0.05, df.beardifier(), df.range_choice(df.ref('minecraft:y'), 0, 38, df.beardifier(), 0))
     final_density = (df.max(base_terrain, pillar) - df.beardifier() + near_floor_beardifier).register(ctx, 'lavaflow:final_density')
 
     barrier = df.range_choice(ridge_abs, 0, 0.06, -2, 0.5).register(ctx, 'lavaflow:barrier')
@@ -186,8 +186,8 @@ def _aquifer(
     erosion: df.DensityFunction
 ):
     spline = df.spline(df.Spline(continentalness)
-        .add(-0.29, 0.2)
-        .add(0.09, df.Spline(erosion)
+        .add(-0.23, 0.2)
+        .add(-0.11, df.Spline(erosion)
             .add(0.1, 0.2)
             .add(0.3, df.Spline(ridge_abs)
                 .add(0.1, 0.6)
