@@ -26,19 +26,14 @@
   ],
   "temperatures": [
     -1,
-    -0.45,
-    -0.15,
-    0.2,
-    0.55,
+    -0.27,
+    0.27,
     1
   ],
   "humidities": [
     -1,
-    -0.35,
-    -0.1,
-    0.1,
+    -0.24,
     0.3,
-    0.7,
     1
   ],
   "depths": [
@@ -105,44 +100,19 @@
       "name": "Middle",
       "array": [
         [
-          "biome_m4rrraxl",
-          "biome_m4rrraxl",
-          "biome_m4rrraxl",
+          "minecraft:nether_wastes",
           "minecraft:crimson_forest",
-          "minecraft:crimson_forest",
-          "minecraft:crimson_forest"
-        ],
-        [
-          "biome_m4rrraxl",
-          "biome_m4rrraxl",
-          "biome_m4rrraxl",
-          "minecraft:crimson_forest",
-          "minecraft:crimson_forest",
-          "minecraft:crimson_forest"
+          "biome_m4rrraxl/minecraft:crimson_forest"
         ],
         [
           "minecraft:nether_wastes",
-          "minecraft:nether_wastes",
-          "minecraft:nether_wastes",
-          "minecraft:nether_wastes",
-          "minecraft:nether_wastes",
-          "minecraft:nether_wastes"
+          "minecraft:crimson_forest/minecraft:warped_forest",
+          "minecraft:crimson_forest/minecraft:warped_forest"
         ],
         [
+          "minecraft:nether_wastes",
           "minecraft:warped_forest",
-          "minecraft:warped_forest",
-          "minecraft:warped_forest",
-          "biome_lyark9fq",
-          "biome_lyark9fq",
-          "biome_lyark9fq"
-        ],
-        [
-          "minecraft:warped_forest",
-          "minecraft:warped_forest",
-          "minecraft:warped_forest",
-          "biome_lyark9fq",
-          "biome_lyark9fq",
-          "biome_lyark9fq"
+          "minecraft:warped_forest/biome_lyark9fq"
         ]
       ]
     },
@@ -151,43 +121,18 @@
       "name": "Valley",
       "array": [
         [
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
+          "biome_m4aq8xq2/minecraft:soul_sand_valley",
           "minecraft:soul_sand_valley/minecraft:basalt_deltas",
-          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
-          "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ],
         [
+          "biome_m4aq8xq2/minecraft:soul_sand_valley",
           "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
-          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
-          "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ],
         [
           "biome_m4aq8xq2",
           "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
-          "minecraft:basalt_deltas",
-          "minecraft:basalt_deltas"
-        ],
-        [
-          "biome_m4aq8xq2",
-          "biome_m4aq8xq2",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
-          "minecraft:basalt_deltas",
-          "minecraft:basalt_deltas"
-        ],
-        [
-          "biome_m4aq8xq2",
-          "biome_m4aq8xq2",
-          "minecraft:soul_sand_valley",
-          "minecraft:soul_sand_valley/minecraft:basalt_deltas",
-          "minecraft:basalt_deltas",
           "minecraft:basalt_deltas"
         ]
       ]
@@ -197,42 +142,17 @@
       "name": "Middle (layer)",
       "array": [
         [
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn"
-        ],
-        [
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
+          "biome_lyacebqi",
           "biome_lyaceptn",
           "biome_lyaceptn"
         ],
         [
           "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi"
+          "biome_lyaceptn/biome_lyacdvco",
+          "biome_lyaceptn/biome_lyacdvco"
         ],
         [
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco"
-        ],
-        [
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
+          "biome_lyacebqi",
           "biome_lyacdvco",
           "biome_lyacdvco"
         ]
@@ -243,44 +163,19 @@
       "name": "Middle (high layer)",
       "array": [
         [
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn",
-          "biome_lyaceptn"
+          "biome_lyacebqi",
+          "biome_lyacebqi",
+          "layout_lyacexzw"
         ],
         [
           "biome_lyacebqi",
           "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi"
+          "layout_lyacexzw"
         ],
         [
           "biome_lyacebqi",
           "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi"
-        ],
-        [
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi",
-          "biome_lyacebqi"
-        ],
-        [
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco",
-          "biome_lyacdvco"
+          "layout_lyacexzw"
         ]
       ]
     }
