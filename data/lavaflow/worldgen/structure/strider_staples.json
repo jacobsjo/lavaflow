@@ -6,7 +6,7 @@
     "start_height": {
         "absolute": 32
     },
-    "step": "underground_ores",
+    "step": "underground_decoration",
     "use_expansion_hack": false,
     "terrain_adaptation": "beard_thin",
     "liquid_settings": "ignore_waterlogging",

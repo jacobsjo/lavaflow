@@ -8,7 +8,7 @@
         "absolute": 25
     },
     "start_pool": "minecraft:bastion/start_bridge",
-    "step": "surface_structures",
+    "step": "underground_decoration",
     "use_expansion_hack": false,
     "terrain_adaptation": "beard_box"
 }

@@ -14,5 +14,5 @@
       }
     ],
     "spawn_overrides": {},
-    "step": "surface_structures"
+    "step": "fluid_springs"
   }

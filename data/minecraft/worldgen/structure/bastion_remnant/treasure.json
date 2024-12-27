@@ -8,7 +8,7 @@
         "absolute": 40
     },
     "start_pool": "minecraft:bastion/start_treasure",
-    "step": "local_modifications",
+    "step": "underground_decoration",
     "use_expansion_hack": false,
     "start_jigsaw_name": "lavaflow:center"
 }

@@ -8,6 +8,6 @@
         "absolute": 76
     },
     "start_pool": "minecraft:bastion/start_housing",
-    "step": "surface_structures",
+    "step": "underground_decoration",
     "use_expansion_hack": false
 }
