@@ -110,7 +110,10 @@ def _pillar(
         .add(0.03, -0.15, -0.3)
         .add(0.3, df.Spline(depth+offset)
             .add(-0.2, -0.4)
-            .add(0, -0.2))
+            .add(0, -0.2)
+            .add(0.05, -0.2)
+            .add(0.05, -100)
+        )
     )
     thickness_variation = (df.noise('lavaflow:pillar_thickness', 1, 0) * 0.5).clamp(-0.1, 0.1).register(ctx, 'lavaflow:pillar_thickness_variation')
 

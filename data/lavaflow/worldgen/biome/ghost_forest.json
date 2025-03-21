@@ -30,11 +30,9 @@
         "music_volume": 0,
         "particle": {
             "options": {
-                "type": "minecraft:dust",
-                "scale": 1,
-                "color": 6583410
+                "type": "minecraft:firefly"
             },
-            "probability": 0.02
+            "probability": 0.005
         },
         "grass_color": 9676968,
         "sky_color": 3558731,
