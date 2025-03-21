@@ -1,5 +1,5 @@
 {
-    "feature": "lavaflow:patch_dead_bush",
+    "feature": "lavaflow:patch_dry_vegetation",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
