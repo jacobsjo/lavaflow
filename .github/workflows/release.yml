@@ -95,6 +95,6 @@ jobs:
               },
               "dependencies": [],
               "name": "${{ steps.build.outputs.version }}",
-              "supports": ["1.21.4"]
+              "supports": ["1.21.5"]
             }
           }'
