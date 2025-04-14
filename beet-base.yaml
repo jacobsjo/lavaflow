@@ -9,6 +9,7 @@ data_pack:
   - "."
   - 'public'
   name: '{{project_id}}'
+  pack_format: 71
 
 pipeline:
 - src.snowcapped
