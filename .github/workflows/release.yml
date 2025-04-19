@@ -41,7 +41,7 @@ jobs:
           files: build/*.jar
           game-version-filter: releases
           game-versions: | 
-            1.21.4
+            1.21.5
           version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: |
@@ -62,7 +62,7 @@ jobs:
           files: build/*.zip
           game-version-filter: releases
           game-versions: | 
-            1.21.4
+            1.21.5
           version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: datapack
