@@ -2,21 +2,9 @@ extend: 'beet-base.yaml'
 output: build
 pipeline:
 - beet.contrib.minify_json
-- src.modded
-- src.githubOutput
+- plugins.modded
+- plugins.githubOutput
 - beet.contrib.output
-- broadcast: compat/*/
-  extend: beet.yaml
-  data_pack:
-    zipped: true
-  output: ../../build/compat/
-  pipeline:
-  - beet.contrib.output
-  - src.zip
-  - beet.contrib.clear
-  meta:
-    output:
-      directory: ../../build/compat/
 
 data_pack:
   zipped: true

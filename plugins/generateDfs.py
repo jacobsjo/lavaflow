@@ -1,5 +1,5 @@
 from beet.contrib.worldgen import Context, WorldgenDensityFunction
-import src.lib.density_functions as df
+import plugins.lib.density_functions as df
 
 LARGE = 1000000
 
