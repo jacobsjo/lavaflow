@@ -71,16 +71,6 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Publish Compat Datapacks on GitHub
-        if: ${{ ! inputs.skipPublishCompatDatapacks }}
-        uses: Kir-Antipov/mc-publish@v3.3
-        with:
-          files: build/compat/*.zip
-          version: ${{ steps.build.outputs.version }}
-          version-type: alpha
-          loaders: datapack
-
-          github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish Datapack on Smithed
         if: ${{ ! inputs.skipPublishOnSmithed }}
         uses: fjogeleit/http-request-action@v1.16.4

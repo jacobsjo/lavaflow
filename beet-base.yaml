@@ -6,24 +6,22 @@ require:
 - beet.contrib.copy_files
 data_pack:
   load:
-  - "."
-  - 'public'
+  - "src"
   name: '{{project_id}}'
   pack_format: 71
 
 pipeline:
-- src.snowcapped
-- src.handleBiomes
-- src.generateDfs
-- src.generateSurfaceRules
+- plugins.snowcapped
+- plugins.handleBiomes
+- plugins.generateDfs
+- plugins.generateSurfaceRules
 
 output: build
 
 meta:
   copy_files:
     data_pack:
-      README.md: public/README.md
-      data/c/structure_icons.json: data/c/structure_icons.json
-      assets/lavaflow/lang: assets/lavaflow/lang
+      data/c/structure_icons.json: src/data/c/structure_icons.json
+      assets/lavaflow/lang: src/assets/lavaflow/lang
       LICENSE.txt: LICENSE.txt
       AGPL.txt: AGPL.txt

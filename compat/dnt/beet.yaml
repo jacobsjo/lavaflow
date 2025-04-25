@@ -1,9 +1,0 @@
-extend: ../../beet-config.yaml
-id: lavaflow_dnt_compat
-name: Lavaflow-DnT compatablility
-description: Compatability layer betwen Lavaflow and Dungeons and Taverns
-data_pack:
-  load:
-  - "."
-  name: dnt
-output: ../../build/compat

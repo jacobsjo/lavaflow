@@ -1,6 +1,6 @@
 from typing import Dict, List, TypedDict, Any, Literal
 from dataclasses import dataclass, field
-from src.lib.VerticalAnchor import VerticalAnchor
+from plugins.lib.VerticalAnchor import VerticalAnchor
 
 __all__ = [
     'SurfaceRule',

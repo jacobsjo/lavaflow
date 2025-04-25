@@ -1,6 +1,6 @@
 from beet import Context
 from beet.contrib.worldgen import Dimension
-from src.lib.BiomeColors import BiomeColors
+from plugins.lib.BiomeColors import BiomeColors
 from subprocess import DEVNULL, STDOUT, check_call
 
 def beet_default(ctx: Context):

@@ -1,6 +1,6 @@
 from beet.contrib.worldgen import Context, WorldgenNoiseSettings
-from src.lib.surface_rules import *
-from src.lib.VerticalAnchor import *
+from plugins.lib.surface_rules import *
+from plugins.lib.VerticalAnchor import *
 
 LARGE = 1000000
 

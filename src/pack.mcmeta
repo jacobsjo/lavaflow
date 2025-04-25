@@ -1,4 +1,5 @@
 {
+  "id": "lavaflow",
   "pack": {
     "pack_format": 73,
     "description": [
@@ -16,6 +17,15 @@
       {
         "text": "Overhauled nether",
         "color": "#ffffff"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": 0,
+        "directory": "compat_dnt",
+        "namespace_exists": "nova_structures"
       }
     ]
   }
