@@ -8,7 +8,7 @@ data_pack:
   load:
   - "src"
   name: '{{project_id}}'
-  pack_format: 71
+  pack_format: 80
 
 pipeline:
 - plugins.snowcapped

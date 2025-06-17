@@ -1,7 +1,8 @@
 {
   "id": "lavaflow",
   "pack": {
-    "pack_format": 73,
+    "pack_format": 80,
+    "supported_formats": [71, 80],
     "description": [
       {
         "text": "Lavaflow",
@@ -24,8 +25,7 @@
     "entries": [
       {
         "formats": 0,
-        "directory": "compat_dnt",
-        "namespace_exists": "nova_structures"
+        "directory": "compat_dnt"
       }
     ]
   }
