@@ -26,6 +26,10 @@
       {
         "formats": 0,
         "directory": "compat_dnt"
+      },
+      {
+        "formats": [72, 80],
+        "directory": "1_21_6"
       }
     ]
   }

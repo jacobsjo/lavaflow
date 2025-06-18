@@ -1,0 +1,126 @@
+{
+    "feature": "lavaflow:dried_ghast",
+    "placement": [
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "absolute": 50
+            }
+        },
+        {
+            "type": "minecraft:count",
+            "count": 7
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 20,
+            "target_condition": {
+                "type": "all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "#lavaflow:ground",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                ]
+            },
+            "allowed_search_condition": {
+                "type": "minecraft:true"
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:any_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            1,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            1,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            -1,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            -1,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            -1,
+                            0,
+                            -1
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            0,
+                            0,
+                            -1
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:bone_block",
+                        "offset": [
+                            1,
+                            0,
+                            -1
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

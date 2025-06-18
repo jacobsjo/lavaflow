@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+        "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "data": {
+                        "Name": "minecraft:dried_ghast",
+                        "Properties": {
+                            "facing": "north"
+                        }
+                    },
+                    "weight": 1
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:dried_ghast",
+                        "Properties": {
+                            "facing": "east"
+                        }
+                    },
+                    "weight": 1
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:dried_ghast",
+                        "Properties": {
+                            "facing": "south"
+                        }
+                    },
+                    "weight": 1
+                },
+                {
+                    "data": {
+                        "Name": "minecraft:dried_ghast",
+                        "Properties": {
+                            "facing": "west"
+                        }
+                    },
+                    "weight": 1
+                }
+            ]
+        }
+    }
+}
