@@ -2,3 +2,4 @@ extend: 'beet-base.yaml'
 output: build
 require:
 - plugins.livelyreload
+- plugins.smithed_dialog

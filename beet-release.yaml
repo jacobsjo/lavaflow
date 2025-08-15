@@ -4,6 +4,7 @@ pipeline:
 - beet.contrib.minify_json
 - plugins.modded
 - plugins.githubOutput
+- plugins.smithed_dialog
 - beet.contrib.output
 
 data_pack:
