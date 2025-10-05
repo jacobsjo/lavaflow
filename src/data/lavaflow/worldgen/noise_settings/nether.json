@@ -20,6 +20,7 @@
     "noise_router": {
         "final_density": "lavaflow:final_density",
         "initial_density_without_jaggedness": 1,
+        "preliminary_surface_level": 144,
         "continents": "lavaflow:continentalness",
         "erosion": "lavaflow:erosion",
         "ridges": "lavaflow:ridge",

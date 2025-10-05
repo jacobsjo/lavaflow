@@ -47,7 +47,7 @@ def modded(ctx: Context, opts: ModdedOptions):
             item.dump(z, path)
 
 def fabric(extra: PackExtraContainer, ctx: Context, opts: ModdedOptions):
-    minecraft_version_string = f'>={opts.min_minecraft_version} <{opts.max_minecraft_version}' if opts.min_minecraft_version is not None and opts.max_minecraft_version is not None else ctx.minecraft_version
+    minecraft_version_string = f'>={opts.min_minecraft_version} <{opts.max_minecraft_version}-' if opts.min_minecraft_version is not None and opts.max_minecraft_version is not None else ctx.minecraft_version
 
     config = {
         'schemaVersion': 1,
@@ -70,7 +70,7 @@ def fabric(extra: PackExtraContainer, ctx: Context, opts: ModdedOptions):
     extra['fabric.mod.json'] = JsonFile({k: v for (k, v) in config.items() if v is not None})
 
 def quilt(extra: PackExtraContainer, ctx: Context, opts: ModdedOptions):
-    minecraft_version_string = {'all':[f'>={opts.min_minecraft_version}', f'<{opts.max_minecraft_version}']} if opts.min_minecraft_version is not None and opts.max_minecraft_version is not None else ctx.minecraft_version
+    minecraft_version_string = {'all':[f'>={opts.min_minecraft_version}', f'<{opts.max_minecraft_version}-']} if opts.min_minecraft_version is not None and opts.max_minecraft_version is not None else ctx.minecraft_version
 
     assert opts.group is not None
 
