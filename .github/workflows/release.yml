@@ -28,7 +28,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Install beet
-        run: pip install beet
+        run: pip install click==8.2.1 beet
       - name: Install snowcapped
         run: npm i snowcapped
       - name: Build
