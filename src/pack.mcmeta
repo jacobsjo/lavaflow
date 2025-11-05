@@ -1,10 +1,9 @@
 {
   "id": "lavaflow",
   "pack": {
-    "pack_format": 88,
-    "supported_formats": [80, 88],
-    "min_format": 80,
-    "max_format": 88,
+    "pack_format": 93,
+    "min_format": 93,
+    "max_format": 93,
     "description": [
       {
         "text": "Lavaflow",
@@ -30,12 +29,6 @@
         "min_format": 0,
         "max_format": 0,
         "directory": "compat_dnt"
-      },
-      {
-        "formats": [88, 88],
-        "min_format": 88,
-        "max_format": 88,
-        "directory": "1_21_9"
       }
     ]
   }

@@ -14,30 +14,35 @@
     "carvers": "#lavaflow:caves",
     "downfall": 0.0,
     "effects": {
-        "additions_sound": {
-            "sound": "minecraft:ambient.soul_sand_valley.additions",
-            "tick_chance": 0.0111
-        },
-        "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
-        "fog_color": 3558731,
-        "mood_sound": {
-            "block_search_extent": 8,
-            "offset": 2.0,
-            "sound": "minecraft:ambient.soul_sand_valley.mood",
-            "tick_delay": 6000
-        },
-        "music": [],
-        "music_volume": 0,
-        "particle": {
-            "options": {
-                "type": "minecraft:firefly"
-            },
-            "probability": 0.005
-        },
         "grass_color": 9676968,
-        "sky_color": 3558731,
-        "water_color": 3558731,
-        "water_fog_color": 3558731
+        "water_color": 3558731
+    },
+    "attributes": {
+        "minecraft:audio/ambient_sounds": {
+            "additions": {
+                "sound": "minecraft:ambient.soul_sand_valley.additions",
+                "tick_chance": 0.0111
+            },
+            "loop": "minecraft:ambient.soul_sand_valley.loop",
+            "mood": {
+                "block_search_extent": 8,
+                "offset": 2.0,
+                "sound": "minecraft:ambient.soul_sand_valley.mood",
+                "tick_delay": 6000
+            }
+        },
+        "minecraft:audio/background_music": {},
+        "minecraft:audio/music_volume": 0.0,
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:firefly"
+                },
+                "probability": 0.005
+            }
+        ],
+        "minecraft:visual/fog_color": 3558731,
+        "minecraft:visual/fog_start_distance": -40
     },
     "has_precipitation": false,
     "spawn_costs": {

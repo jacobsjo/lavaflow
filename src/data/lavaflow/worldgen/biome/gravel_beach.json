@@ -14,32 +14,25 @@
     "carvers": "#lavaflow:caves",
     "downfall": 0.0,
     "effects": {
-        "additions_sound": {
-            "sound": "minecraft:ambient.nether_wastes.additions",
-            "tick_chance": 0.0111
-        },
-        "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
-        "mood_sound": {
-            "block_search_extent": 8,
-            "offset": 2.0,
-            "sound": "minecraft:ambient.nether_wastes.mood",
-            "tick_delay": 6000
-        },
-        "music":  [
-            {
-                "weight": 1,
-                "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
-                    "replace_current_music": false,
-                    "sound": "minecraft:music.nether.nether_wastes"
-                }
+        "water_color": 4159204
+    },
+    "attributes": {
+        "minecraft:audio/ambient_sounds": {
+            "additions": {
+                "sound": "minecraft:ambient.nether_wastes.additions",
+                "tick_chance": 0.0111
+            },
+            "loop": "minecraft:ambient.soul_sand_valley.loop",
+            "mood": {
+                "block_search_extent": 8,
+                "offset": 2.0,
+                "sound": "minecraft:ambient.nether_wastes.mood",
+                "tick_delay": 6000
             }
-        ],
-        "fog_color": 3344392,
-        "sky_color": 7254527,
-        "water_color": 4159204,
-        "water_fog_color": 329011
+        },
+        "minecraft:visual/fog_color": "#834418",
+        "minecraft:visual/fog_end_distance": 165,
+        "minecraft:visual/fog_start_distance": -10
     },
     "has_precipitation": false,
     "spawn_costs": {},
