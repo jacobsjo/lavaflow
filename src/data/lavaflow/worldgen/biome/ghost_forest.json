@@ -32,7 +32,7 @@
             }
         },
         "minecraft:audio/background_music": {},
-        "minecraft:audio/music_volume": 0.0,
+        "minecraft:audio/music_volume": 0.01,
         "minecraft:visual/ambient_particles": [
             {
                 "particle": {
