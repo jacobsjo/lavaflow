@@ -8,7 +8,7 @@
                 "minecraft:lava",
                 "minecraft:polished_blackstone_bricks"
             ],
-            "offset": [0, -1, 0]
+            "offset": [0, 1, 0]
         },
         "direction": "down",
         "layers": [

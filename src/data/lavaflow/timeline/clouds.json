@@ -1,0 +1,19 @@
+{
+    "period_ticks": 1000,
+    "tracks": {
+        "minecraft:visual/cloud_height": {
+            "modifier": "add",
+            "ease": "in_out_sine",
+            "keyframes": [
+                {
+                    "ticks": 0,
+                    "value": -3
+                },
+                {
+                    "ticks": 500,
+                    "value": 3
+                }
+            ]
+        }
+    }
+}

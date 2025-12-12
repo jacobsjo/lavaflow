@@ -125,7 +125,7 @@
     },
     {
         "processor_type": "minecraft:block_rot",
-        "integrity": 0.8,
+        "integrity": 0.2,
         "rottable_blocks": [
             "minecraft:soul_lantern"
         ]

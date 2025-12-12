@@ -1,8 +1,7 @@
 {
     "ambient_light": 0.1,
     "coordinate_scale": 8.0,
-    "effects": "minecraft:the_nether",
-    "fixed_time": 18000,
+    "has_fixed_time": true,
     "has_ceiling": true,
     "has_skylight": false,
     "height": 256,
@@ -11,7 +10,8 @@
     "min_y": 0,
     "monster_spawn_block_light_limit": 15,
     "monster_spawn_light_level": 7,
-    "natural": false,
+    "skybox": "none",
+    "cardinal_light": "nether",
     "attributes": {
         "minecraft:gameplay/bed_rule": {
             "can_set_spawn": "never",
@@ -31,7 +31,7 @@
         "minecraft:visual/fog_end_distance": 140,
         "minecraft:visual/cloud_fog_end_distance": 140,
         "minecraft:visual/cloud_height": 97.33,
-        "minecraft:visual/cloud_color": "#80FF0000",
+        "minecraft:visual/cloud_color": "#50600000",
         "minecraft:audio/background_music": {
             "default": {
                 "max_delay": 24000,
@@ -55,5 +55,6 @@
             }
         },
         "minecraft:visual/fog_color": 3344392
-    }
+    },
+    "timelines": "#lavaflow:in_nether"
 }

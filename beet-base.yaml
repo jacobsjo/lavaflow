@@ -4,11 +4,12 @@ name: Lavaflow
 description: Overhauled Nether with lava rivers and more
 require:
 - beet.contrib.copy_files
+- plugins.timeline
 data_pack:
   load:
   - "src"
   name: '{{project_id}}'
-  pack_format: 93
+  pack_format: 94
 
 pipeline:
 - plugins.snowcapped

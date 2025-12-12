@@ -1,0 +1,41 @@
+{
+    "period_ticks": 600,
+    "tracks": {
+        "minecraft:visual/fog_end_distance": {
+            "ease": "in_out_sine",
+            "modifier": "multiply",
+            "keyframes": [
+                {
+                    "ticks": 0,
+                    "value": 0.9
+                },
+                {
+                    "ticks": 300,
+                    "value": 1.1
+                },
+                {
+                    "ticks": 600,
+                    "value": 0.9
+                }
+            ]
+        },
+        "minecraft:visual/fog_start_distance": {
+            "ease": "in_out_sine",
+            "modifier": "multiply",
+            "keyframes": [
+                {
+                    "ticks": 0,
+                    "value": 0.9
+                },
+                {
+                    "ticks": 300,
+                    "value": 1.1
+                },
+                {
+                    "ticks": 600,
+                    "value": 0.9
+                }
+            ]
+        }
+    }
+}
