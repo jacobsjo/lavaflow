@@ -28,7 +28,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Install beet
-        run: pip install click==8.2.1 beet
+        run: pip install beet
       - name: Install snowcapped
         run: npm i snowcapped
       - name: Build
@@ -41,10 +41,7 @@ jobs:
           files: build/*.jar
           game-version-filter: releases
           game-versions: | 
-            1.21.6
-            1.21.7
-            1.21.8
-            1.21.9
+            1.21.11
           version: ${{ steps.build.outputs.version }}
           version-type: alpha
           loaders: |
@@ -65,12 +62,9 @@ jobs:
           files: build/*.zip
           game-version-filter: releases
           game-versions: | 
-            1.21.6
-            1.21.7
-            1.21.8
-            1.21.9
+            1.21.11
           version: ${{ steps.build.outputs.version }}
-          version-type: alpha
+          version-type: beta
           loaders: datapack
 
           modrinth-id: tpebiQuQ
@@ -91,6 +85,6 @@ jobs:
               },
               "dependencies": [],
               "name": "${{ steps.build.outputs.version }}",
-              "supports": ["1.21.6", "1.21.7", "1.21.8", "1.21.9"]
+              "supports": ["1.21.11"]
             }
           }'

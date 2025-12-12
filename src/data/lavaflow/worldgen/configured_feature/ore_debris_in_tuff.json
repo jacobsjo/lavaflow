@@ -10,7 +10,7 @@
                 },
                 "target": {
                     "block": "minecraft:smooth_basalt",
-                    "probability": 0.9,
+                    "probability": 0.93,
                     "predicate_type": "minecraft:random_block_match"
                 }
             },
@@ -20,7 +20,7 @@
                 },
                 "target": {
                     "block": "minecraft:blackstone",
-                    "probability": 0.9,
+                    "probability": 0.93,
                     "predicate_type": "minecraft:random_block_match"
                 }
             },
